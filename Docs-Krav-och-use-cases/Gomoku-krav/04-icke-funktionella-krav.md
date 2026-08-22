@@ -1,6 +1,6 @@
 # Icke-funktionella krav för Gomoku
 
-Vilka egenskaper ett system behöver ha är väldigt viktigt för användarupplevelse. Kraven är framtagna genom en intervju med kunden. Under intervjun ställdes frågor kring hur snabbt spelet ska fungera, vilka enheter kunden använder men även vad som händer om anslutningen till internet plöstligt försvinner. 
+Vilka egenskaper ett system behöver ha är väldigt viktigt för användarupplevelse. Kraven är framtagna genom en intervju med kunden. Under intervjun ställdes frågor kring hur snabbt spelet ska fungera, vilka enheter kunden använder men även vad som händer om anslutningen till internet plötsligt försvinner. 
 
 # Prestanda
 
@@ -28,7 +28,7 @@ För att testa kravet, gör ett drag på spelplanen sedan kontrollera att draget
 
 ### Kundens svar till frågan: Nej, Helst inte. Jag glömmer lösenord hela tiden, så om jag måste skapa ett konto kanske jag bara struntar i det.
 
-Krav: Användaren vill kunna starta och spela en match utan att behhöva skapa konto eller logga in.
+Krav: Användaren vill kunna starta och spela en match utan att behöva skapa konto eller logga in.
 
 
 
@@ -42,9 +42,9 @@ Krav: Användaren vill kunna starta och spela en match utan att behhöva skapa k
 # Kompatibilitet
 
 ## Frågan från intervjun med kunden:
-### Vad brukar du vanligtvis spela Gomoku på? Har du olika eneheter? 
+### Vad brukar du vanligtvis spela Gomoku på? Har du olika enheter? 
 
-### Kundens svar: Jag brukar spela på en samsung-telefon och en vanlig Windows laptop. Chrome, tror jag-den med den frägade cirkeln
+### Kundens svar: Jag brukar spela på en samsung-telefon och en vanlig Windows laptop. Chrome, tror jag-den med den frågade cirkeln
 
 Krav: Systemet ska fungera på både mobiltelefon men även datorer och ska kunna spelas direkt i en webbläsare utan installation. 
 
@@ -52,7 +52,7 @@ Krav: Systemet ska fungera på både mobiltelefon men även datorer och ska kunn
 
 ### Hur kan vi testa kravet?
 
-Testa först att spela Gomoku på en samsung telefon, sedan testa windows dator. Kontrollera även att spelet fungerar i en mordern webbläsare som chrome, och att spelplanen är användbar på båda eneheterna.
+Testa först att spela Gomoku på en samsung telefon, sedan testa windows dator. Kontrollera även att spelet fungerar i en modern webbläsare som chrome, och att spelplanen är användbar på båda enheterna.
 
 
 
@@ -71,7 +71,7 @@ Starta en match på en Android telefon sedan kontrollera att en annan spelare me
 # Distansspel och anslutningen (länk)
 
 ## frågan från intervjun: Om du spelar med dina vänner, hur brukar ni köra med varandra?
-### Svaret: Oftast är det en kompis som spelar med mig. Ibland sitter vi bredvid varandra i soffan, och iblnad ärr kompisen hemma hos sig.
+### Svaret: Oftast är det en kompis som spelar med mig. Ibland sitter vi bredvid varandra i soffan, och ibland är kompisen hemma hos sig.
 
 Krav: Systemet ska fungera när två personer kör från samma ställe eller om det spelar från olika platser
 
@@ -81,19 +81,32 @@ Testa en match med två personer som använder samma enhet och en annan där tv�
 # Tillförlitlighet
 
 ## Frågan från intervjun: Vad har du känt ifall internet anslutningen plöstligt försvann?
-### Svaret från kunden: Det händer ibland att internet fötsvinner en stund, typ när mikron är igång då skulle jag helst slippa börja om hela spelet från början. 
+### Svaret från kunden: Det händer ibland att internet försvinner en stund, typ när mikron är igång då skulle jag helst slippa börja om hela spelet från början. 
 
-Krav: Systemet ska kunna hantera tillfälliga prroblem som till exempel internetanslutning. Om anslutningen bryts ska användaren informeras och kunna fortsätta spela när anslutningen återställs, om det är möjligt.
+Krav: Systemet ska kunna hantera tillfälliga problem som till exempel internetanslutning. Om anslutningen bryts ska användaren informeras och kunna fortsätta spela när anslutningen återställs, om det är möjligt.
 
 ### Hur kan kravet testas?
 Stäng av internetanslutningen under en match sedan kontrollera hur systemet reagerar. Återanslut och kontrollera om matchen kan fortsättas utan att spelets tillstånd förloras helt. 
 
 
-
-
 # Sammanfattning:
+Intervjun med kunden användes för att identifiera många icke-funktionella krav som är viktiga för kunden utan att kunden är medveten om det. Genom att exempelvis utgå från prestanda, enheter, internetanslutningg och användarensbehov kunde de icke-funktionella kraven tas fram utan onödiga frågor. 
 
-Intervjun med kunden användes för att identifera många icke-funktionella krav som är viktiga för kunden utan att kunden är medveten om det. Genom att exempelvis utgå från prestanda, enheter, internetanslutningg och användarensbehov kunde de ickefunktionella krraven tas fram utan onödiga frågor. 
+Ett krav är när en förväntning på systemet som går att testa, och kraven kan testas genom olika praktiska tester, till exempel genom att använda olika enheter, stänga av internet under en pågående match eller kontrollera hur snabbt spelet reagerar efter ett drag. 
 
-Ett krav är när en förväntning som går att testa, och kraven kan testas genom olika parktiska tester, till exempel genom att använda olika enheter, stänga av internet under en pågående match eller kontrollera hur snabbt spelet reagerar efter ett drag. 
+```mermaid
+flowchart TD
+    A["Icke-funktionella krav"] --> B["Prestanda"]
+    A --> C["Användbarhet"]
+    A --> D["Kompatibilitet"]
+    A --> E["Distansspel"]
+    A --> F["Tillförlitlighet"]
+
+    B --> B1["Testa hur snabbt ett drag visas"]
+    C --> C1["Testa att starta spel utan konto"]
+    D --> D1["Testa på mobil och dator"]
+    E --> E1["Testa spel på samma plats och via länk"]
+    F --> F1["Bryt internet och kontrollera återanslutning"]
+```
+```
 
