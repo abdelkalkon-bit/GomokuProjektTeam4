@@ -1,25 +1,8 @@
 #Funktionella Krav#
 
-Identifierade krav (användaren använder följande operativsystem och webbläsare):
+User story
 
-Nu har vi två alternativ;
-
-a. Samsungs operativsystem + Google Chrome Webbläsare
-b. Windows operativsystem + Google Chrome Webbläsare
-
-Enligt AI:ns beskrivning så föredrar den att inte behöva ladda ned programm, darför skulle ett webbbaserat Gomoku spel vare det bästa alternativet.
-
-Följande alternativ;
-
-a. Spelet spelas på en Samsung mobil via Google Chromes webbläsare
-b. Spelet spelas på en dator med Windows opertaivsystem via Google Chromes webbläsare
-
-User storys
-
-1. Som spelare vill jag spela Gomoku genom att klicka på en länk via Google Chromes webbläsare på min Samsung telefon för att vinna, förlora eller sluta i oavgjort.
-
-2. Som spelare vill jag spela Gomoku genom att klicka på en länk via Google Chromes webbläsare på min dator med Windows operativsystem för att vinna, förlora eller sluta i oavgjort.
-
+Som en spelare vill jag kunna spela Gomoku mot en motsåndare så att en av oss får fem i rad eller att spelat slutar i oavgjort.
 
 1. Startmeny
 1.1 På starmenyn ska det finnas tre huvudval: "Spela mot dator", "Multiplayer med vän", "Inställningar" samt en meny med länk till info om hur spelet går till. Det ska även finnas en diskret länk längst ned med länk till en guide.
