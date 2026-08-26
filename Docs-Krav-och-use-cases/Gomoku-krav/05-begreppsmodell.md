@@ -29,6 +29,11 @@
 - En spelare kan välja svårighetsgrad mot dator.
 
 ```mermaid
+---
+config:
+  class:
+    hideEmptyMembersBox: true
+---
 classDiagram
     class Spelare
     class Spel
@@ -44,20 +49,20 @@ classDiagram
 
     Spelare "2" --> "1" Spel : deltar i
     Spel "1" --> "1" Spelplan : har
-    Spelplan "1" --> "*" Position : bestar av
-    Position "0..1" --> "1" Sten : innehaller
+    Spelplan "1" --> "*" Position : består av
+    Position "0..1" --> "1" Sten : innehåller
 
-    Spelare "1" --> "*" Drag : gor
+    Spelare "1" --> "*" Drag : gör
     Drag "1" --> "1" Sten : placerar
-    Drag "1" --> "1" Position : pa
+    Drag "1" --> "1" Position : på
 
     Match "1" --> "*" Tur : har
-    Tur "*" --> "1" Spelare : tillhor
+    Tur "*" --> "1" Spelare : tillhör
 
     Match "1" --> "1" Resultat : har
 
     Spelare "1" --> "*" Spelinbjudan : skapar
     Spelinbjudan "1" --> "1" Match : leder till
 
-    Spelare "1" --> "1" Svarighetsgrad : valjer
+    Spelare "1" --> "1" Svarighetsgrad : väljer
 ```
