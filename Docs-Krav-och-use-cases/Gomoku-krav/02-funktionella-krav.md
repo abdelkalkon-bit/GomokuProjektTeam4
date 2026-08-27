@@ -19,3 +19,15 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | FR-02.2  | Spelet ska neka att en markering placeras på en upptagen punkt. |
 | FR-02.3  | Spelet ska hantera turordning mellan spelare. |
 
+## Vinst
+
+| ID       | Krav |
+|----------|------|
+| FR-03.1  | Spelet ska kunna identifiera när fem markeringar av samma sort ligger i rad. |
+| FR-03.2  | Spelet ska kunna identifiera vilka markeringar som hör till vilken spelare. |
+| FR-03.3  | Spelet ska identifiera vinnare utifrån vilka markeringar som fått fem i rad. |
+| FR-03.4  | Spelet ska avslutas automatiskt när en spelare vunnit. |
+| FR-03.5  | En skärm ska visa vilken spelare som vann och innehålla knappar för huvudmeny och ny match. |
+| FR-03.6  | Spelaren ska kunna återgå till huvudmenyn efter avslutat spel. |
+| FR-03.7  | Spelaren ska kunna starta en ny match efter avslutat spel. |
+
