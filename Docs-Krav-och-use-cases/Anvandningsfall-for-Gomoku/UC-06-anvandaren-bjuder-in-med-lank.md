@@ -1,8 +1,17 @@
-# Användingsfall 06 - Användaren bjuder en sin vän via en länk.
+# Användingsfall 06 - Användaren bjuder in sin vän via en länk.
+| Namn  | Värde |
+|-------|-------|
+|User case ID | UC-06 |
+|Namn på filen| Användaren bjuder in sin vän via en länk |
+|Aktör|guest spelare|
+|Relaterade FR | .. |
+|Relaterade NFR | Användbarhet |
 
 ## Relevant för GDPR: Data minimization samt Privacy/Transparency
 
 Aktör: En spelare
+
+Mål: Länken skapas och skickas utan att systemet spårar, loggar eller användardata på något sätt.
 
 Förutsättning: Spelaren är på hemsidan för Gomoku och vill bjuda in sin kompis.
 

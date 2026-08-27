@@ -21,4 +21,32 @@ många spel idag kräver en registrering eller installation innan man börjar sp
 
 Systemet ska därför vara enkelt att använda när två personer spelar mot varandra på samma enhet eller när de spelar på distans genom en länk. Samtidigt behöver spelet även reagera snabbt på användarens handlingar för att spelupplevelsen ska kännas smidig för båda spelarna och inte onödigt långsam. 
 
+# Översikt över dokument strukturen
+| Namn på fil | vad finns i den? | 
+|------|------:|
+| Begreppslista-00 | En mapp med en fil som innehåller alla domän och tekniska termer som anävnds i kravspecifikationen |
+| 01-inledning.md | System beskrivning med syftet, användare och problem som ska de ska lösa |
+| 02-funktionella-krav.md | Tabeller över nödvändiga krav för vad systemet måste kunna göra |
+| 03-kompletterande-krav.md |  
+| 04-icke-funktionella-krav.md | Krav på systemet som är viktiga för användarupplevelse. Prestanda/ användbarhet/  kompatibilitet/tillförlitlighet |
+| 05-begreppsmodell.md | Viktiga centrala begrepp i systemet och vad dom har för relation till systemts funktion |
+| 06-user-journey.md | INGET ÄN |
+| 07-use-cases-overview.md | INGEN ÄN | 
+
+# Översikt över användningsfall för Gomoku 
+| Namn på fil | vad finns i den? |
+|------|------:|
+| UC-01-starta-en-match.md | UC för en spelare som vill starta ett nytt Gomoku |
+| Uc-02-spela-mot-en-dator.md | UC för en spelare som vill spela en Gomoku match mot en dator |
+| UC-03-valja-svarighetsgrad.md | UC för en spelare som väljer svårighetsgrad mot en dator |
+| UC-04-användaren spelar anonymt-utan-konto | UC för en spelare som använder Gomoku för första gången (GDPR) |
+| UC-05-anvandare-for-inget-cookies.md | UC för en spelare som hanterar cookies (GDPR) |
+| UC-06-anvandare-bjuder-in-med-lank | UC för en spelare som bjuder sin vän med en länk |
+| UC-07-spelaren-ansluta-till-en-match.md | UC för en spelare som försöker återansluta till en match |
+| UC-08-spelaren-vill-avsluta-match.md | UC för en spelare som vill avsluta en pågående match |
+| UC-09-spelaren-vill-forsatta-pagaende-match.md | UC för en spelare som fortsätta en pågående match |
+| UC-10-spelaren-vill-se-match-resultat.md | UC för en spelare som vill se resultatet av en match |
+| UC-11-spelaren-vill-fortsätta-efter-internetavgbrott.md | UC för en spelare som vill fortsätta en match efter internetavbrott |
+
+
 

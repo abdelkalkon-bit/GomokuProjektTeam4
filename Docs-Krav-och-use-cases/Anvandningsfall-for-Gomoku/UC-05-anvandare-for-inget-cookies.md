@@ -1,8 +1,17 @@
 # UC-05- Användaren hanterar cookies
 
+| Namn | Värde |
+|-------|-------|
+| User case ID | UC-05 |
+| Namn på filen | Användaren hanterar cookies |
+| Aktör | guest spelare|  
+| Relaterade NRF | Användbarhet GDPR |
+
 ## GDPR relevant test: Cookie Consent och Privacy/Transparency.
 
 Aktör: En spelare 
+
+Mål: Systemet fungerar trots att användaren inte godkänner cookies. Systemet accepterar även inte cookies automatiskt utan användarens godkännande. 
 
 Förutsättning: Användaren besöken hemsidan för Gomoku
 

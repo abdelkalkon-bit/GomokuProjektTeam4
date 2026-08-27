@@ -1,8 +1,18 @@
 # Användningsfall 04 - Användaren spelar anonymt utan konto
 
+| Namn | Värde |
+|-------|-------|
+| Use case ID | UC-04 |
+| Namn på filen | Användarene spelar anonymt utan konto |
+| Aktör | guest spelare |
+| Relaterade FR | .. |
+| Relaterade NRF | Användbarhet |
+
 ## Relevant GDPR: Data minimization Privacy/Transparency
 
 Aktör: En spelare
+
+Mål: Säkerställa att systemet inte kräver personuppgifter från en spelare som inte är inloggad för att den ska fungera. 
 
 Förutsättning: Användaren öppnar Gomoku för första gången från en webbläsare 
 
