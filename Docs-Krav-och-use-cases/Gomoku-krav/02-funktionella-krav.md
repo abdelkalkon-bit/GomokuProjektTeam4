@@ -31,6 +31,14 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | FR-02.11 | Systemet ska automatiskt identifiera när spelplanen är full och ingen fått fem i rad. |
 | FR.02.12 | Systemet ska automatiskt avsluta spelet när spelplanen är full och deklarera oavgjort. |
 
+## Välj svårighetsgrad
+
+| ID       | Krav | 
+|----------|------|
+| FR-03.1  | Systemet ska visa en meny med svårighetsgraderna "lätt, "medel" och "svår" när spelaren väljer att spela mot datorn. |
+| FR-03.2  | Systemet ska låta spelaren välja en av svårighetsgraderna. |
+| FR-03.3  | Systemet laddar ett spel med den valda svårighetsgraden. |
+
 ## Spelet körs
 
 | ID       | Krav |
