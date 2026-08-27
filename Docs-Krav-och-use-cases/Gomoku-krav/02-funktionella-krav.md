@@ -14,6 +14,22 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | FR-01.4  | Systemet ska kunna tilldela korrekt markör till spelare. | 
 | FR-01.5  | Systemet ska automatiskt ange vilken spelare som börjar utifrån tilldelad markör. |
 
+## Spel mot datorns AI
+
+| ID       | Krav |
+|----------|------|
+| FR-02.1  | Systemet ska kunna tillåta att en spelare går med i spelet mot datorns AI. |
+| FR-02.2  | Systemet ska låta spelaren välja svårighetsgrad, "lätt", "medium" eller "svårt". |
+| FR-02.3  | Systemet ska kunna identifiera vilken svårighetsgrad som valts. |
+| FR-02.4  | Systemet ska kunna ladda en spelplan av förvald storlek. | 
+| FR-02.5  | Systemet ska kunna tilldela korrekt markör till spelaren. |
+| FR-02.6  | Systemet ska automatiskt ange om spelaren eller om datorns AI börjar utifrån tilldelad markör. |
+| FR-02.7  | Śystemet ska tillåta spelare 1 att placera sin markör på en tom punkt på spelplanen. | |
+| FR-02.8  | Systemet ska hantera turordning mellan spelaren och datorn. |
+| FR-02.9  | Systemet ska automatisk identifiera när spelaren eller datorns AI får 5 i rad. |
+| FR-02.10 | Systemet ska automatikst avsluta spelet när spelaren eller datornn AI fått fem i rad och deklarera vinnaren. |
+| FR-02.11 | Systemet ska automatiskt identifiera när spelplanen är full och ingen fått fem i rad. |
+| FR.02.12 | Systemet ska automatiskt avsluta spelet när spelplanen är full och deklarera oavgjort. |
 
 ## Spelet körs
 
