@@ -31,3 +31,13 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | FR-03.6  | Spelaren ska kunna återgå till huvudmenyn efter avslutat spel. |
 | FR-03.7  | Spelaren ska kunna starta en ny match efter avslutat spel. |
 
+## Oavgjort
+
+| ID       | Krav |
+|----------|------|
+| FR-04.1  | Spelet ska kunna identifiera när brädet är fullt och ingen spelare fått fem i rad. |
+| FR-04.2  | Spelet ska avslutas när brädet är fullt och ingen spelare fått fem i rad. |
+| FR-04.3  | En skärm ska visa "oavgjort" och ha knappar för huvudmeny och nytt parti. |
+| FR-04.4  | Spelaren ska kunna återgå till startmenyn efter avslutat spel. |
+| FR-04.5  | Spelaren ska kunna starta ett nytt parti efter avslutat spel. |
+
