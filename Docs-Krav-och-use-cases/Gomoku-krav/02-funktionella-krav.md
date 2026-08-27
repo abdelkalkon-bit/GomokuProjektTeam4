@@ -8,9 +8,12 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 
 | ID       | Krav |
 |----------|------|
-| FR-01.1  | Ett tomt rutnät av förvald storlek 11x11, 13x13, 15x15, 17x17 eller 19x19 ska laddas. |
-| FR-01.2  | Varje spelare ska tilldelas sina markeringar. |
-| FR-01.3  | Spelet ska automatikst tilldela vilken spelare som börjar. | 
+| FR-01.1  | Systemet ska tillåta att en spelare går med i spelet. |
+| FR-01.2  | Systemet ska kunna identifera om spelet är mot datorn, hot-seat multiplayer eller online multiplayer. |
+| FR-01.3  | Systemet ska kunna ladda en spelplan av förvald storlek. | 
+| FR-01.4  | Systemet ska kunna tilldela korrekt markör till spelare. | 
+| FR-01.5  | Systemet ska automatiskt ange vilken spelare som börjar utifrån tilldelad markör. |
+
 
 ## Spelet körs
 
