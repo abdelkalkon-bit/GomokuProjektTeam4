@@ -1,5 +1,17 @@
 # Användningsfall - Gomoku 
-## UC-01- Starta en match i Gomoku
+## UC-01 Starta en match i Gomoku
+
+
+| Fält | Värden |
+|-------|-------|
+| **Use Case ID** | UC-01 |
+| **Name** | Starta en match i Gomoku |
+| **Version** | 1.0 |
+| **Prelimär Aktör** | Gäst User, Registerad spelare |
+| **Secondary Actors** | AI Opponent |
+| **Relateradd FR** | FR-xx.x, FR-xx.x, FR-xx.x |
+| **Relateradd NFR** | NFR-xx.x, NFR-xx.x |
+
 
 Aktör: En spelare
 
