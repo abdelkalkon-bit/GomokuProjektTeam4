@@ -4,9 +4,11 @@
 |-------|-------|
 | Use case ID | UC-04 |
 | Namn på filen | Användarene spelar anonymt utan konto |
+| Version | 1.0 |
 | Aktör | guest spelare |
-| Relaterade FR | .. |
-| Relaterade NRF | Användbarhet |
+| Sekundär akör | Ingen |
+| Relaterade FR | FR-04.1,FR-04.2,FR-04.3,FR-04.4,FR-04.5,FR-04.6|
+| Relaterade NRF | Användbarhet, Integritet/GDPR |
 
 ## Relevant GDPR: Data minimization Privacy/Transparency
 
@@ -22,9 +24,17 @@ Förutsättning: Användaren öppnar Gomoku för första gången från en webbl�
 2. Systemet låter användaren starta ett spel utan att kräva konto eller inloggning. 
 3. Användaren väljer spelläge och kan köra utan krav från systemet om personlig information.
 4. Systemet kräver inte personuppgifter för att den ska fungera.
+5. Användaren kan spela en hel Gomoku match från början till slut utan att behöva registrera ett konto eller logga in. 
 
-### Förväntat resultat för denna GDPR-test: 
+### Alternativa flöde: 
 
-Kontrollera att systemet inte samla in personuppgifter innan användaren börjar spela, kontrollera även att systemet inte visar något som kräver personuppgifter från spelaren.
+- 
+-
+-
+
+### Förväntat resultat: 
+Användaren kan starta Gomoku och spela en match utan att behöva registrera ett konto, logg in eller lämna något personuppgifter. Systemet ska även inte kräva personuppgifter för att den ska fungera. 
+
+
 
 
