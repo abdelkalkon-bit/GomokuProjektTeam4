@@ -8,10 +8,10 @@
 | **Use Case ID** | UC-03 |
 | **Namn** |  Välja svårighetsgrad mot en dator |
 | **Version** | 1.0 |
-| **Prelimär Aktör** | System |
-| **Sekundär AKtör** | Gäst User, Registerad spelare, AI Motståndare |
-| **Related FR** | FR-03.1, FR-03.2, FR-03.03 |
-| **Related NFR** | NFR-xx.x |
+| **Prelimär Aktör** | spelare |
+| **Sekundär AKtör** | Ingen |
+| **Related FR** | FR-03.1, FR-03.2, FR-03.3 |
+| **Related NFR** | Användbarhet |
 
 
 Aktör: En spelare
@@ -27,10 +27,13 @@ Förutsättningar:
 1. Systemet visar för spelaren LÄTT / MEDEL / SVÅR när spelaren har valt att spela mot en dator.
 2. Spelaren väljer en svårighetsgrad mot datorn.
 3. Systemet fortsätter vidare med den valde svårighetsgraden för spelet och brädan visas.
-4. Spelaren starar spelet. 
+
+
+### Alternativa flöde:
+- Om en spelare ändrar sitt val innan matchen startar kan spelaren välja ett annat alternativ av de tre svårighetsgraderna. 
 
 ### Förväntat resultat:
 
-Spelaren känner tydligt av att den valda svårighetsgraden används i spelet. Systemet anpassar sig til den valda alternativet. 
+Spelaren kan välja olika svårighetsgrader, lätt, medel och svår. Den valde svårighetsgraden används när gomoku matchen startas och datan anpassar sig efter spelarens val. 
 
 
