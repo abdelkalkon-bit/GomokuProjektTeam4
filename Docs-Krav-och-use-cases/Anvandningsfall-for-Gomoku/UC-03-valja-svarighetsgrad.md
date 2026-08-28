@@ -2,6 +2,18 @@
 
 ## UC - 03 - Välja svårighetsgrad mot en dator 
 
+
+| Fält | Värde |
+|-------|-------|
+| **Use Case ID** | UC-03 |
+| **Namn** |  Välja svårighetsgrad mot en dator |
+| **Version** | 1.0 |
+| **Prelimär Aktör** | System |
+| **Sekundär AKtör** | Gäst User, Registerad spelare, AI Motståndare |
+| **Related FR** | FR-xx.x, FR-xx.x |
+| **Related NFR** | NFR-xx.x |
+
+
 Aktör: En spelare
 
 Mål: Spelaren vill välja en lämplig svårighetsgrad mot datorn, lätt, medel eller svår.

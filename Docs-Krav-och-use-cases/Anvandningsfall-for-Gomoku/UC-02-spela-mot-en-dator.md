@@ -6,8 +6,8 @@
 | **Use Case ID** | UC-02 |
 | **Namn** | Spelar mot en dator |
 | **Version** | 1.0 |
-| **Prelimär Aktörr** | Gäst User, Registerad spelare |
-| **Secondary Actors** | AI Motståndare |
+| **Prelimär Aktör** | Gäst User, Registerad spelare |
+| **Sekundär Aktör** | AI Motståndare |
 | **Relaterad FR** | FR-xx.x, FR-xx.x,  |
 | **Relaterad NFR** | NFR-xx.x, NFR-xx.x |
 
