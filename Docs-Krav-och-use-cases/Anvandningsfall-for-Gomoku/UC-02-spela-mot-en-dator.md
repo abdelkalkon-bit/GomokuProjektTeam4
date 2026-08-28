@@ -8,7 +8,7 @@
 | **Version** | 1.0 |
 | **Prelimär Aktör** | Gäst User, Registerad spelare |
 | **Sekundär Aktör** | AI Motståndare |
-| **Relaterad FR** | FR-xx.x, FR-xx.x,  |
+| **Relaterad FR** | FR-02.1 -- FR-02.12  |
 | **Relaterad NFR** | NFR-xx.x, NFR-xx.x |
 
 

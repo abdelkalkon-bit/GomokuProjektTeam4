@@ -10,7 +10,7 @@
 | **Version** | 1.0 |
 | **Prelimär Aktör** | System |
 | **Sekundär AKtör** | Gäst User, Registerad spelare, AI Motståndare |
-| **Related FR** | FR-xx.x, FR-xx.x |
+| **Related FR** | FR-03.1, FR-03.2, FR-03.03 |
 | **Related NFR** | NFR-xx.x |
 
 
