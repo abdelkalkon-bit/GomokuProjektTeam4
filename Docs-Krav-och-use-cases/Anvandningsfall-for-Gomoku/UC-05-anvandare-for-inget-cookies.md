@@ -21,8 +21,8 @@ Förutsättning: Användaren besöken hemsidan för Gomoku
 ### Huvudflöde:
 
 1. Användaren öppnar webbplatsen för Gomoku
-2. Systemet informerar användaren om det finns cookies eller annan typ av spräning som används.
-3. Användaren kan både accpetera eller neeka sådant som kräver godkännande. 
+2. Systemet informerar användaren om det finns cookies eller annan typ av spårning som används.
+3. Användaren kan både accpetera eller neeka det som kräver godkännande. 
 4. Systemet ser till att den sparar användarens val.
 5. Spelet fortsätter att fungera som den ska utan att spelaren behöver godkänna cookies.
 
