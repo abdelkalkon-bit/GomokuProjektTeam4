@@ -9,8 +9,8 @@
 | **Version** | 1.0 |
 | **Prelimär Aktör** | Gäst User, Registerad spelare |
 | **Secondary Actors** | AI Opponent |
-| **Relateradd FR** | FR-xx.x, FR-xx.x, FR-xx.x |
-| **Relateradd NFR** | NFR-xx.x, NFR-xx.x |
+| **Relateradd FR** | FR-01.1, FR-01.2, FR-01.3, FR-01.4, FR-01.5 |
+| **Relateradd NFR** | Användbarhet, Prestanda |
 
 
 Aktör: En spelare
