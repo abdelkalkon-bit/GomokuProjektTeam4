@@ -1,6 +1,17 @@
 # Användningsfall - 02 - Gomoku
 ## UC - 02 - Spela mot en dator!
 
+| Fält | Värde |
+|-------|-------|
+| **Use Case ID** | UC-02 |
+| **Namn** | Spelar mot en dator |
+| **Version** | 1.0 |
+| **Prelimär Aktörr** | Gäst User, Registerad spelare |
+| **Secondary Actors** | AI Motståndare |
+| **Relaterad FR** | FR-xx.x, FR-xx.x,  |
+| **Relaterad NFR** | NFR-xx.x, NFR-xx.x |
+
+
 Aktör: En spelare
 
 Målet: Spelaren vill kunna spela en Gomoku match mot dator
