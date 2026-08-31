@@ -3,25 +3,32 @@
 |-------|-------|
 |User case ID | UC-06 |
 |Namn på filen| Användaren bjuder in sin vän via en länk |
-|Aktör|guest spelare|
-|Relaterade FR | .. |
-|Relaterade NFR | Användbarhet |
+|Version | 1.0 | 
+|Aktör|en spelare|
+|Sekundär aktör | En-vän |
+|Relaterade FR | FR-06.1, FR-06.2, FR-04.2, FR-04.3, FR-04.5, FR-04.6, FR-07.2, |
+|Relaterade NFR | Användbarhet/GDPR |
 
 ## Relevant för GDPR: Data minimization samt Privacy/Transparency
 
 Aktör: En spelare
 
-Mål: Länken skapas och skickas utan att systemet spårar, loggar eller användardata på något sätt.
+Mål: Spelaren ska kunna skapa en länk till en Gomoku match och dela den med sin vän utan att behöva lämna personuppgifter eller skapa ett konto i systemet. 
 
-Förutsättning: Spelaren är på hemsidan för Gomoku och vill bjuda in sin kompis.
+Förutsättning: Spelaren är på hemsidan för Gomoku och vill starta som hans vän ska kunna ansluta sig till. 
 
 ### Huvudflöde:
 
-1. Spelaren skapar ett speel som vanligt och systemet genererar en invite länk.
+1. Spelaren startar en Gomoku match
+1. Systemet skapar en länk som kan användas av en annan spelare för att ansluta till en match. 
 2. Spelaren kopierar länken.
 3. Spelaren skickar själv länken till sin vän.
 4. Spelarens vän klickar på länken för att köra.
 5. Spelarens vän kan delta i spelet utan att behöva skapa ett konto.
 
-### Förväntat resultat av deenna GDPR-TEST:
-Kontrollera att systemet inte skickar spelarens personuppgifter på något sätt eller någon annan tredje part bara för att skapa/skicka länken. 
+### Alternativa flöde:
+- 
+- 
+
+### Förväntat resultat:
+Kontrollera att systemet inte kräver personuppgifter eller konto från personen som anslutar via en länk. Kontrollera även att systemet inte samlar in personuppgifter och att användaren kan dela länken till en gomoku-match med sin vän. 

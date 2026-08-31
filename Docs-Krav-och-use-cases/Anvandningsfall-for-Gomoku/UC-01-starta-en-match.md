@@ -5,13 +5,12 @@
 | Fält | Värden |
 |-------|-------|
 | **Use Case ID** | UC-01 |
-| **Name** | Starta en match i Gomoku |
+| **Namn** | Starta en match i Gomoku |
 | **Version** | 1.0 |
 | **Prelimär Aktör** | Gäst User, Registerad spelare |
-| **Secondary Actors** | AI Opponent |
-| **Relateradd FR** | FR-xx.x, FR-xx.x, FR-xx.x |
-| **Relateradd NFR** | NFR-xx.x, NFR-xx.x |
-
+| **Sekendära Aktör** | AI Motståndare |
+| **Relaterad FR** | FR-01.1, FR-01.2, FR-01.3, FR-01.4, FR-01.5 |
+| **Relaterad NFR** | Användbarhet, Prestanda |
 
 Aktör: En spelare
 
