@@ -11,7 +11,7 @@
 | **Prelimär Aktör** | spelare |
 | **Sekundär AKtör** | Ingen |
 | **Related FR** | FR-03.1, FR-03.2, FR-03.3 |
-| **Related NFR** | Användbarhet |
+| **Related NFR** | NFR-01 Användarvänlighet |
 
 
 Aktör: En spelare
