@@ -70,7 +70,9 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | FR-06.4  | Systemet ska låta användaren skicka länken genom att klistra in den i en app. |
 | FR-06.5  | Systemet ska omdirigera användaren när hen klickar på en invite länk. |
 | FR-06.6  | Systemet ska ladda ett spel när hen klickar på invite länken. |
-| FR-06.7  | Systemet ska låta användaren spela spelet utan att hen behöver ha ett konto eller logga in. |
+| FR-06.7  | Systemet ska låta användaren ta bild på QR koden och få upp en länk. |
+| FR-06.8  | Systemet ska omdirigera användaren när hen klickar på länken från QR koden. |
+| FR-06.9  | Systemet ska låta användaren spela spelet utan att hen behöver ha ett konto eller logga in. |
 
 ## Multiplayer spel
 
