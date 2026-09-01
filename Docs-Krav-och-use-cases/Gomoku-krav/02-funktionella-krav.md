@@ -64,12 +64,13 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 
 | ID       | Krav |
 |----------|------|
-| FR-06.1  | Systemet ska generera en invite länk när användaren skapar ett spel. |
-| FR-06.2  | Systemet ska låta användaren kopiera länken. |
-| FR-06.3  | Systemet ska låta användaren själv skicka länken till en annan användare. |
-| FR-06.4  | Systemet ska omdirigera användaren till ett spel när hen klickar på en invite länk. |
-| FR-06.5  | Systemet ska låta användaren spela ett spel via invite länken utan att hen behöver ha befintligt konto eller logga in. |
-
+| FR-06.1  | Systemet ska skapa ett unikt match id när användaren startar en ny match. |
+| FR-06.2  | Systemet ska visa "kopiera länk" samt "visa  QR-kod" efter att användaren skapat en match. |
+| FR-06.3  | Systemet ska låta användaren kopiera länken. |
+| FR-06.4  | Systemet ska låta användaren skicka länken genom att klistra in den i en app. |
+| FR-06.5  | Systemet ska omdirigera användaren när hen klickar på en invite länk. |
+| FR-06.6  | Systemet ska ladda ett spel när hen klickar på invite länken. |
+| FR-06.7  | Systemet ska låta användaren spela spelet utan att hen behöver ha ett konto eller logga in. |
 
 ## Multiplayer spel
 
