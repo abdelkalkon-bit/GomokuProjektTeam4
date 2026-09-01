@@ -2,7 +2,7 @@
 
 Vilka egenskaper ett system behöver ha är väldigt viktigt för användarupplevelsen. Kraven är framtagna genom en intervju med kunden. Under intervjun ställdes frågor kring hur snabbt spelet ska fungera, vilka enheter kunden använder men även vad som händer om anslutningen till internet plötsligt försvinner. 
 
-#NFR-01 Användarvänlighet
+# NFR-01 Användarvänlighet
 ## Frågan från intervjun: Vill du att spelet ska vara enkelt att förstå även om du inte är tekniskt kunnig?
 ### Kunden svar: Ja, absolut. Jag vill helst bara kunna öppna det och börja spela utan att behöva förstå en massa tekniska saker.
 Krav: Systemet ska vara enkelt att förstå och använda. Användaren ska kunna starta en Gomoku match och förstå hur man gör ett drag utan att behöva vara tekniskt kunnig.
@@ -10,7 +10,7 @@ Krav: Systemet ska vara enkelt att förstå och använda. Användaren ska kunna 
 Låt en person som inte har kört Gomoku tidigare starta spelet och spela en match. Kontrollera att personen kan starta en match och göra ett drag utan hjälp från utvecklaren.
 
 
-#NFR-02 Responsiv design
+# NFR-02 Responsiv design
 ## Koppling till intervjun med AI-kunden:
 Kunden använder både Samsung-telefon och Windows laptop och vill kunna spela Gomoku på båda enheterna.
 Krav: Spelet ska innehålla en spelplan och ska anpassas efter den enheten som används. Knappar, spelplan och annan viktig information ska vara användbara/fungera både på mobiltelefon och dator.
@@ -18,7 +18,7 @@ Krav: Spelet ska innehålla en spelplan och ska anpassas efter den enheten som a
 Testa Gomoku på en Samsung-telefon och på en laptop. Kontrollera att spelplanen och knapparna är synliga och går att använda på båda enheterna.
 
 
-#NFR-03  Prestanda
+# NFR-03  Prestanda
 ## Frågan från intervjun: 
 ### vad hade fått dig att sluta spela spelet eller stör dig när du spelar vanligtvis?
 ### Kundens svar: Om det blev segt skulle jag nog bara stänga ner det, ärligt talat. Jag vill det ska kännas smidigt när jag spelar.
@@ -28,7 +28,7 @@ Spelet ska reagera snabbt när användaren gör ett drag i Gomoku. Distansspel �
 För att testa kravet, gör ett drag på spelplanen sedan kontrollera att draget visas direkt. Vid distansspel kan två enheter användas samtidigt för att kontrollera att det inte finns fördröjning mellan varje drag. 
 
 
-#NFR-04 Anonym användning
+# NFR-04 Anonym användning
 ## Frågan från intervjun med Ai kunden:
 ### Vill du behöva logga in på eget konto innan du börjar spela eller vad föredrar du?
 ### Kundens svar till frågan: Nej, Helst inte. Jag glömmer lösenord hela tiden, så om jag måste skapa ett konto kanske jag bara struntar i det.
@@ -37,7 +37,7 @@ Krav: Användaren vill kunna starta och spela en match utan att behöva skapa ko
 Öppna spelet som en ny användare och kontrollera att det går att starta en match utan att du behöver registrering eller inloggning. 
 
 
-#NFR-05 Kompatibilitet
+# NFR-05 Kompatibilitet
 ## Frågan från intervjun med kunden:
 ### Vad brukar du vanligtvis spela Gomoku på? Har du olika enheter? 
 ### Kundens svar: Jag brukar spela på en samsung-telefon och en vanlig Windows laptop. Chrome, tror jag-den med den frågade cirkeln
@@ -55,7 +55,7 @@ Krav: En annan spelare ska kunna ansluta till spelet utan problem även om perso
 Starta en match på en Android telefon sedan kontrollera att en annan spelare med till exempel iPhone kan spela samma match. 
 
 
-#NFR-06 Anslutning via länk
+# NFR-06 Anslutning via länk
 ## frågan från intervjun: Om du spelar med dina vänner, hur brukar ni köra med varandra?
 ### Svaret: Oftast är det en kompis som spelar med mig. Ibland sitter vi bredvid varandra i soffan, och ibland är kompisen hemma hos sig.
 Krav: Systemet ska fungera när två personer kör från samma ställe eller om det spelar från olika platser
@@ -63,7 +63,7 @@ Krav: Systemet ska fungera när två personer kör från samma ställe eller om 
 Testa att två personer kan spela samma match från varsin enhet genom att den ena spelaren skapar en match och den andra ansluter via länken.
 
 
-#NFR-07 Tillförlitlighet
+# NFR-07 Tillförlitlighet
 ## Frågan från intervjun: Vad har du känt ifall internetanslutningen plöstligt försvann?
 ### Svaret från kunden: Det händer ibland att internet försvinner en stund, typ när mikron är igång då skulle jag helst slippa börja om hela spelet från början. 
 Krav: Systemet ska kunna hantera tillfälliga problem som till exempel internetanslutning. Om anslutningen bryts ska användaren informeras och kunna fortsätta spela när anslutningen återställs, om det är möjligt.
@@ -71,7 +71,7 @@ Krav: Systemet ska kunna hantera tillfälliga problem som till exempel interneta
 Stäng av internetanslutningen under en match sedan kontrollera hur systemet reagerar. Återanslut och kontrollera om matchen kan fortsättas utan att spelets tillstånd förloras helt. 
 
 
-#NFR-08 Säkerhet och integritet
+# NFR-08 Säkerhet och integritet
 ## Frågan från intervjun med kunden:
 ### Är det viktigt för dig att kunna spela utan att behöva lämna personlig information? eller spelar det ingen roll
 ### Kundens svar: Ja, det är viktigt för mig. Jag vill helst inte behöva lämna ut personlig information bara för att spela.
