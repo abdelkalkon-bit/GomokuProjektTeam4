@@ -8,7 +8,7 @@
 | Aktör | guest spelare |
 | Sekundär akör | Ingen |
 | Relaterade FR | FR-04.1,FR-04.2,FR-04.3,FR-04.4,FR-04.5,FR-04.6|
-| Relaterade NRF | Användbarhet, Integritet/GDPR |
+| Relaterade NRF | NFR-04 Anonym användning, NFR-08 Säkerhet och integritet |
 
 ## Relevant GDPR: Data minimization Privacy/Transparency
 
