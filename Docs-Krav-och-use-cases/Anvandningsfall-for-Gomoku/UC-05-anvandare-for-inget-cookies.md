@@ -8,7 +8,7 @@
 | Aktör | Spelare |
 | Sekundär aktör | Ingen |
 | Relaterade FR | FR-05.1,FR-05.2, FR-05.3, FR-05.4,FR-05.5 |
-| Relaterade NRF | Användbarhet/ GDPR |
+| Relaterade NRF | NFR-08 Säkerhet och integritet |
 
 ## GDPR relevant test: Cookie Consent och Privacy/Transparency.
 

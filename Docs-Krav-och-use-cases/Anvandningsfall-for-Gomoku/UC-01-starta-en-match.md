@@ -10,7 +10,7 @@
 | **Prelimär Aktör** | Gäst User, Registerad spelare |
 | **Sekendära Aktör** | AI Motståndare |
 | **Relaterad FR** | FR-01.1, FR-01.2, FR-01.3, FR-01.4, FR-01.5 |
-| **Relaterad NFR** | Användbarhet, Prestanda |
+| **Relaterad NFR** | NFR-01: Användarvänlighet, NFR-03: Prestanda |
 
 Aktör: En spelare
 
