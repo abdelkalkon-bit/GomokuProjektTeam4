@@ -86,6 +86,7 @@ Krav: Systemet ska kunna hantera tillfälliga problem som till exempel interneta
 ### Hur kan kravet testas?
 Stäng av internetanslutningen under en match sedan kontrollera hur systemet reagerar. Återanslut och kontrollera om matchen kan fortsättas utan att spelets tillstånd förloras helt. 
 
+# Säkerhet och integritet
 ## Frågan från intervjun med kunden:
 ### Är det viktigt för dig att kunna spela utan att behöva lämna personlig information? eller spelar det ingen roll
 ### Kundens svar: Ja, det är viktigt för mig. Jag vill helst inte behöva lämna ut personlig information bara för att spela.
@@ -110,12 +111,14 @@ flowchart TD
     A --> G["Kompatibilitet mellan olika enheter"]
     A --> H["Distansspel och anslutningen"]
     A --> I["Tillförlitlighet"]
+    A --> J["Säkerhet och integritet"]
 
     B --> B1["Testa att en ny användare kan starta och spela"]
     C --> C1["Testa spelplan och knappar på mobil och dator"]
     D --> D1["Testa hur snabbt ett drag visas"]
-    E --> E1["Testa spel utan konto eller personlig information"]
+    E --> E1["Testa spel utan konto eller inloggning"]
     F --> F1["Testa på mobil, dator och webbläsare"]
     G --> G1["Testa spel mellan olika typer av enheter"]
     H --> H1["Testa spel på samma plats och via länk"]
     I --> I1["Bryt internet och kontrollera återanslutning"]
+    J --> J1["Kontrollera att personlig information inte visas i invite-länkar"]
