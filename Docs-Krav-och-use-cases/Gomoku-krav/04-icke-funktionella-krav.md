@@ -1,12 +1,12 @@
 # Icke-funktionella krav för Gomoku
 
-Vilka egenskaper ett system behöver ha är väldigt viktigt för användarupplevelse. Kraven är framtagna genom en intervju med kunden. Under intervjun ställdes frågor kring hur snabbt spelet ska fungera, vilka enheter kunden använder men även vad som händer om anslutningen till internet plötsligt försvinner. 
+Vilka egenskaper ett system behöver ha är väldigt viktigt för användarupplevelsen. Kraven är framtagna genom en intervju med kunden. Under intervjun ställdes frågor kring hur snabbt spelet ska fungera, vilka enheter kunden använder men även vad som händer om anslutningen till internet plötsligt försvinner. 
 
 # Användarvänlighet
 ## Frågan från intervjun: Vill du att spelet ska vara enkelt att förstå även om du inte är tekniskt kunnig?
 ### Kunden svar: Ja, absolut. Jag vill helst bara kunna öppna det och börja spela utan att behöva förstå en massa tekniska saker.
 
-Krav: Systemet ska vara enkelt att förstå och använda. Användaren ska kunna starta en Gomoku match och förstå hur man gör ett drag utan att behöva vara teknisk kunnig.
+Krav: Systemet ska vara enkelt att förstå och använda. Användaren ska kunna starta en Gomoku match och förstå hur man gör ett drag utan att behöva vara tekniskt kunnig.
 
 ### Hur kan kravet testas?
 Låt en person som inte har kört Gomoku tidigare starta spelet och spela en match. Kontrollera att personen kan starta en match och göra ett drag utan hjälp från utvecklaren.
@@ -51,7 +51,7 @@ Krav: Systemet ska fungera på både mobiltelefon men även datorer och ska kunn
 
 
 ### Hur kan vi testa kravet?
-Testa först att spela Gomoku på en samsung telefon, sedan testa windows dator. Kontrollera även att spelet fungerar i en modern webbläsare som chrome, och att spelplanen är användbar på båda enheterna.
+Testa först att spela Gomoku på en samsung telefon, sedan testa windows dator. Kontrollera även att spelet fungerar i en modern webbläsare som Chrome, och att spelplanen är användbar på båda enheterna.
 
 
 # Kompatibilitet mellan olika enheter; 
@@ -74,11 +74,11 @@ Starta en match på en Android telefon sedan kontrollera att en annan spelare me
 Krav: Systemet ska fungera när två personer kör från samma ställe eller om det spelar från olika platser
 
 ### Hur det testas?
-Testa en match med två personer som använder samma enhet och en annan där två personer använder varsin enhet och använder en länk för att anluta till en match. 
+Testa att två personer kan spela samma match från varsin enhet genom att den ena spelaren skapar en match och den andra ansluter via länken.
 
 # Tillförlitlighet
 
-## Frågan från intervjun: Vad har du känt ifall internet anslutningen plöstligt försvann?
+## Frågan från intervjun: Vad har du känt ifall internetanslutningen plöstligt försvann?
 ### Svaret från kunden: Det händer ibland att internet försvinner en stund, typ när mikron är igång då skulle jag helst slippa börja om hela spelet från början. 
 
 Krav: Systemet ska kunna hantera tillfälliga problem som till exempel internetanslutning. Om anslutningen bryts ska användaren informeras och kunna fortsätta spela när anslutningen återställs, om det är möjligt.
@@ -97,9 +97,9 @@ Krav: Systemet ska inte kräva personlig information för att användaren ska ku
 Starta ett spel utan att skapa ett konto eller logga in. Kontrollera att information som visas i en invite länk för en vän inte innehåller spelarens personliga information.
 
 # Sammanfattning:
-Intervjun med kunden användes för att identifiera många icke-funktionella krav som är viktiga för kunden utan att kunden är medveten om det. Genom att exempelvis utgå från prestanda, enheter, internetanslutningg och användarensbehov kunde de icke-funktionella kraven tas fram utan onödiga frågor. 
+Intervjun med kunden användes för att identifiera många icke-funktionella krav som är viktiga för kunden utan att kunden är medveten om det. Genom att exempelvis utgå från prestanda, enheter, internetanslutning och användarens behov kunde de icke-funktionella kraven tas fram utan onödiga frågor. 
 
-Ett krav är när en förväntning på systemet som går att testa, och kraven kan testas genom olika praktiska tester, till exempel genom att använda olika enheter, stänga av internet under en pågående match eller kontrollera hur snabbt spelet reagerar efter ett drag. 
+Ett krav är en förväntning på systemet som går att testa, och kraven kan testas genom olika praktiska tester, till exempel genom att använda olika enheter, stänga av internet under en pågående match eller kontrollera hur snabbt spelet reagerar efter ett drag. 
 
 ```mermaid
 flowchart TD
