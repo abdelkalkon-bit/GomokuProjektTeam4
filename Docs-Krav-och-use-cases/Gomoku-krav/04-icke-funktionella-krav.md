@@ -11,7 +11,7 @@ krav: Krav: Systemet ska vara enkelt att förstå och använda. Användaren ska 
 ### Hur kan kravet testas?
 Låt en person som inte har kört Gomoku tidigare starta spelet och spela en match. Kontrollera att personen kan starta en match och göra ett drag utan hjälp från utvecklaren.
 
-# Responsivitet
+# Responsiv design
 ## Koppling till intervjun med AI-kunden:
 Kunden använder både Samsung-telefon och Windows laptop och vill kunna spela Gomoku på båda enheterna.
 
@@ -102,17 +102,20 @@ Ett krav är när en förväntning på systemet som går att testa, och kraven k
 
 ```mermaid
 flowchart TD
-    A["Icke-funktionella krav"] --> B["Prestanda"]
-    A --> C["Användbarhet"]
-    A --> D["Kompatibilitet"]
-    A --> E["Distansspel"]
-    A --> F["Tillförlitlighet"]
+    A["Icke-funktionella krav"] --> B["Användarvänlighet"]
+    A --> C["Responsiv design"]
+    A --> D["Prestanda"]
+    A --> E["Anonym användning"]
+    A --> F["Kompatibilitet"]
+    A --> G["Kompatibilitet mellan olika enheter"]
+    A --> H["Distansspel och anslutningen"]
+    A --> I["Tillförlitlighet"]
 
-    B --> B1["Testa hur snabbt ett drag visas"]
-    C --> C1["Testa att starta spel utan konto"]
-    D --> D1["Testa på mobil och dator"]
-    E --> E1["Testa spel på samma plats och via länk"]
-    F --> F1["Bryt internet och kontrollera återanslutning"]
-```
-```
-
+    B --> B1["Testa att en ny användare kan starta och spela"]
+    C --> C1["Testa spelplan och knappar på mobil och dator"]
+    D --> D1["Testa hur snabbt ett drag visas"]
+    E --> E1["Testa spel utan konto eller personlig information"]
+    F --> F1["Testa på mobil, dator och webbläsare"]
+    G --> G1["Testa spel mellan olika typer av enheter"]
+    H --> H1["Testa spel på samma plats och via länk"]
+    I --> I1["Bryt internet och kontrollera återanslutning"]
