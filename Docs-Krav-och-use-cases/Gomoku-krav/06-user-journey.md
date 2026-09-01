@@ -1,4 +1,4 @@
-# User Journey - Gomoku
+# User Journey-06 - Gomoku
 ## Kort översikt:
 Nedan finns User journeys som beskriver hur en användare upplever och interagerar med systemet från början till slut när användaren försöker att uppnå ett specifikt mål i systemet. 
 
