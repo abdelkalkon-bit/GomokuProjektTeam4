@@ -10,9 +10,11 @@
 | Relaterade FR | FR-08.1, FR-08.2 |
 | Relaterade NRF | NFR-03, NFR-07, NFR-08 |
 
-## Aktör:En spelare
+## Aktör:
+En spelare
 
-## Mål: Spelaren vill återuppta en pågående match efter att ha förlorat internetuppkopplingen
+## Mål: 
+Spelaren vill återuppta en pågående match efter att ha förlorat internetuppkopplingen
 
 ## Förutsättningar:
 * Spelaren hade en pågående match innan internetavbrottet
