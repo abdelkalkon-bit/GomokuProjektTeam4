@@ -12,11 +12,13 @@
 | **Relaterad FR** | FR-01.1, FR-01.2, FR-01.3, FR-01.4, FR-01.5 |
 | **Relaterad NFR** | NFR-01: Användarvänlighet, NFR-03: Prestanda |
 
-Aktör: En spelare
+## Aktör: 
+En spelare
 
-Mål: Spelare vill starta ett nytt Gomoku match
+## Mål: 
+Spelare vill starta ett nytt Gomoku match
 
-Förutsättningar:
+### Förutsättningar:
 
 - Spelaren har internet 
 - Spelaren befinner sig på spelets startsida
