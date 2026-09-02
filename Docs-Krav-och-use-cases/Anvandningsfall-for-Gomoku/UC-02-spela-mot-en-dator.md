@@ -12,11 +12,13 @@
 | **Relaterad NFR** | NFR-01 Användarvänlighet, NFR-03 Prestanda |
 
 
-Aktör: En spelare
+## Aktör: 
+En spelare
 
-Målet: Spelaren vill kunna spela en Gomoku match mot dator
+## Målet: 
+Spelaren vill kunna spela en Gomoku match mot dator
 
-Förutsättningar: 
+##  Förutsättningar: 
 
  - Spelaren har internet och är på startsidan
 
