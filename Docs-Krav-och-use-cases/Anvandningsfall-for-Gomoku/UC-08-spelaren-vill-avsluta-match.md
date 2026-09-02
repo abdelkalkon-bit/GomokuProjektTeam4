@@ -9,14 +9,17 @@
 | Version           | 1.0                            |
 | Preliminär Aktör  | Gäst User, Registrerad Användare |
 | Sekundär Aktör    | AI motståndare, annan spelare  |
-| Relaterad FR      | …                              |
-| Relaterad NFR     | …                              |
+| Relaterad FR      | FR-10.4, FR-10.6, FR-10.7, FR-11.2, FR-11.4, FR-11.5 |
+| Relaterad NFR     | NFR-01, NFR-03 |
 
-Aktör: En spelare.
+## Aktör: 
 
-Mål: Spelare vill avsluta pågående Gomoku match.
+En spelare.
 
-Förutsättningar: Spelaren är inne i ett pågånde spel.
+### Mål: Spelare vill avsluta pågående Gomoku match.
+
+### Förutsättningar: 
+- Spelaren är inne i ett pågånde spel.
 
 ### Huvudflöde
 
