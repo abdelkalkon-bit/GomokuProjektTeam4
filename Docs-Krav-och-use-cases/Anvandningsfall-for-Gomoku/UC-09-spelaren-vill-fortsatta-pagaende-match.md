@@ -9,14 +9,16 @@
 | Version       | 1.0        |
 | Preliminär Aktör | Gäst User, Registrerad Användare |
 | Sekundär Aktör | AI motståndare, annan spelare i lokal multiplayer |
-| Relaterad FR | ... |
-| Relaterad NRF | ... |
+| Relaterad FR | FR-09.1, FR-09.2 |
+| Relaterad NRF | NFR-01, NFR-03 |
 
-Aktör: En spelare.
+## Aktör:
+En spelare.
 
-Mål: Spelaren vill återgå till en pausad match mot datorn eller lokal multiplayer.
+## Mål: Spelaren vill återgå till en pausad match mot datorn eller lokal multiplayer.
 
-Förutsättningar: Spelaren har pausat ett påbörjat spel mot datorn eller en mot annan spelare i lokal multiplayer.
+### Förutsättningar:
+- Spelaren har pausat ett påbörjat spel mot datorn eller en mot annan spelare i lokal multiplayer.
 
 ### Huvudflöde
 
