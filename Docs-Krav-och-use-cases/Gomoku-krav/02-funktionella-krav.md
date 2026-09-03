@@ -29,16 +29,6 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | FR-02.11 | Systemet ska automatiskt identifiera när spelplanen är full och ingen fått fem i rad. |
 | FR.02.12 | Systemet ska automatiskt avsluta spelet när spelplanen är full och deklarera oavgjort. |
 
-## Användaren hanterar Cookies
-
-| ID       | Krav |
-|----------|------|
-| FR-05.1  | Systemet ska tillåta att en användare öppnar Gomoku via en webbläsare. |
-| FR-05.2  | Systemet ska kunna informera om hemsidan använder cookies eller annan typ av spårning. |
-| FR-05.3  | Systemet ska inte automatiskt samal in information om användaren utan samtycke. |
-| FR-05.4  | Systemet ska låta användaren godkänna eller neka cookies och samt annat som kräver godkännande. |
-| FR-05.5  | Systemet ska låta användaren spela Gomoku även när cookies nekats. |
-
 ## Bjud in vän via länk
 
 | ID       | Krav |
