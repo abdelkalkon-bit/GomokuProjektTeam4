@@ -29,3 +29,10 @@
 | FR-05.4  | Systemet ska låta användaren godkänna eller neka cookies och samt annat som kräver godkännande. |
 | FR-05.5  | Systemet ska låta användaren spela Gomoku även när cookies nekats. |
 
+## Återanslut till spel
+
+| ID       | Krav |
+|----------|------|
+| FR-08.1  | Systemet ska kunna hantera att en spelare tillfälligt tappar internetanslutningen under ett pågående onlinespel. |
+| FR-08.2  | Systemet ska återuppta ett pågående spel när spelaren återansluter. |
+
