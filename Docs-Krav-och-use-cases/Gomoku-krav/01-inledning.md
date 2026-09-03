@@ -1,7 +1,6 @@
 # Inledning för projeket
-
-Projektet handlar om att utveckla ett spel som är webbaserad där en användare kan spela direkt i webbläsaren.. 
-Spelet heter G0omoku och tanken är att det ska vara enkelt att komma igång och börja spela utan att användaren ska behöva installera något program eller skapa ett konto.
+Projektet handlar om att utveckla ett spel som är webbaserad där en användare kan spela direkt i webbläsaren.
+Spelet heter Gomoku och tanken är att det ska vara enkelt att komma igång och börja spela utan att användaren ska behöva installera något program eller skapa ett konto.
 
 # Syftet med systemet
 
