@@ -17,6 +17,7 @@
 ## Relationer för dem olika begreppen kan bland annat vara:
 
 - En spelare deltar i ett Gomoku spel
+- En match har ett spelbräde.
 - Ett Gomoku spel har en spelplan att spela på
 - En spelplan består av olika positioner
 - En spelare gör ett drag mot sin motståndare 
@@ -24,9 +25,9 @@
 - En Gomoku match har olika turer mellan varandra.
 - En tur tillhör endast en spelare.
 - Ett spel avslutas och visar ett resultat på vinst, förlust eller oavgjort.
-- En spelare kan skapa en spel inbjudan för att spela med sina vänner.
+- En spelare kan skapa en spelinbjudan för att bjuda in en annan spelare.
 - En spel inbjudan leder till en match.
-- En spelare kan välja svårighetsgrad mot dator.
+- En spelare kan välja svårighetsgrad när motståndaren är datorns AI. 
 
 ```mermaid
 ---
