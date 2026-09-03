@@ -12,13 +12,16 @@
 
 ## GDPR relevant test: Cookie Consent och Privacy/Transparency.
 
-Aktör: En spelare 
+## Aktör:
+En spelare 
 
-Mål: Användaren ska kunna hantera cookies när hen besöker Gomoku för första gången, spårning men även kunna fortsätta spela även om hen nekar cookies. 
+## Mål: 
+Användaren ska kunna hantera cookies när hen besöker Gomoku för första gången, spårning men även kunna fortsätta spela även om hen nekar cookies. 
 
-Förutsättning: Användaren besöken hemsidan för Gomoku
+### Förutsättning: 
+Användaren besöken hemsidan för Gomoku
 
-### Huvudflöde:
+# Huvudflöde:
 
 1. Användaren öppnar webbplatsen för Gomoku
 2. Systemet informerar användaren om det finns cookies eller annan typ av spårning som används.

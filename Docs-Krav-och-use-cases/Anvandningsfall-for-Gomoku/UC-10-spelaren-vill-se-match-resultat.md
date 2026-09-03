@@ -15,7 +15,8 @@
 | Relaterad NFR     | NFR-01, NFR-03 |
 
 
-## Aktör: En spelare
+## Aktör: 
+En spelare
 
 ## Mål:
 Spelaren vill se om han/hon vann, förlorade eller om matchen slutade oavgjort

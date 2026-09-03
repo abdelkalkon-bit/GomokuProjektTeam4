@@ -15,12 +15,13 @@
 ## Aktör:
 En spelare.
 
-## Mål: Spelaren vill återgå till en pausad match mot datorn eller lokal multiplayer.
+## Mål:
+Spelaren vill återgå till en pausad match mot datorn eller lokal multiplayer.
 
 ### Förutsättningar:
 - Spelaren har pausat ett påbörjat spel mot datorn eller en mot annan spelare i lokal multiplayer.
 
-### Huvudflöde
+# Huvudflöde
 
 1. Spelaren väljer att pausa ett pågående spel mot datorn eller i lokal multiplayer.
 2. Brädet fryser

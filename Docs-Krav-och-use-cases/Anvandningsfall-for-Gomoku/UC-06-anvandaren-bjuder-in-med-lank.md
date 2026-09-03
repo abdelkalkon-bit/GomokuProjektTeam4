@@ -11,13 +11,16 @@
 
 ## Relevant för GDPR: Data minimization samt Privacy/Transparency
 
-Aktör: En spelare
+## Aktör: 
+En spelare
 
-Mål: Spelaren ska kunna skapa en länk till en Gomoku match och dela den med sin vän utan att behöva lämna personuppgifter eller skapa ett konto i systemet. 
+## Mål: 
+Spelaren ska kunna skapa en länk till en Gomoku match och dela den med sin vän utan att behöva lämna personuppgifter eller skapa ett konto i systemet. 
 
-Förutsättning: Spelaren är på hemsidan för Gomoku och vill starta som hans vän ska kunna ansluta sig till. 
+### Förutsättning: 
+Spelaren är på hemsidan för Gomoku och vill starta som hans vän ska kunna ansluta sig till. 
 
-### Huvudflöde:
+# Huvudflöde:
 
 1. Spelaren startar en Gomoku match
 1. Systemet skapar en länk som kan användas av en annan spelare för att ansluta till en match. 

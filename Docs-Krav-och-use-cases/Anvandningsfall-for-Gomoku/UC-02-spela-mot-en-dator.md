@@ -22,7 +22,7 @@ Spelaren vill kunna spela en Gomoku match mot dator
 
  - Spelaren har internet och är på startsidan
 
-### Huvudflöde: 
+# Huvudflöde: 
 
 1. Spelaren befinner sig på startsidan och väljer att spela mot en dator
 2. Systemet låter spelaren välja svårighetsgrad sedan startar ett nytt spel.

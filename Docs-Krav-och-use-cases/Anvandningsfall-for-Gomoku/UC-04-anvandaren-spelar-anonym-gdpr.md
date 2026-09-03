@@ -22,7 +22,7 @@ Säkerställa att systemet inte krväer personuppgifter från en spelare som int
 - Användaren öppnar Gomoku för första gången från en webbläsare
 - Användaren behöver inte ha ett konto eller vara inloggad.
 
-### Huvudflöde:
+# Huvudflöde:
 
 1. Användaren öppnar Gomoku för första gången från en webbläsare.
 2. Systemet låter användaren starta ett spel utan att kräva konto eller inloggning. 

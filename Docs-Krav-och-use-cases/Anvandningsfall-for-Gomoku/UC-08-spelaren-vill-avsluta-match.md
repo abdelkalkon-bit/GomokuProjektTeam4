@@ -16,12 +16,13 @@
 
 En spelare.
 
-### Mål: Spelare vill avsluta pågående Gomoku match.
+## Mål: 
+Spelare vill avsluta pågående Gomoku match.
 
 ### Förutsättningar: 
 - Spelaren är inne i ett pågånde spel.
 
-### Huvudflöde
+# Huvudflöde
 
 1. Spelaren väljer att avsluta pågående spel mot datorn eller annan spelare.
 2. Spelaren får upp en bekräftelseruta med valen "Avsluta match" och "Fortsätt spela".

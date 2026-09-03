@@ -23,7 +23,7 @@ Spelare vill starta ett nytt Gomoku match
 - Spelaren har internet 
 - Spelaren befinner sig på spelets startsida
 
-### Huvudflöde:
+# Huvudflöde:
 
  1. Spelaren väljer att starta ett nytt spel och får upp att spela mot någon eller mot dator.
  2. Systemet skapar en ny match för spelaren efter sitt beslut.
