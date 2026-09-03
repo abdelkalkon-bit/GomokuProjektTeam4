@@ -52,13 +52,6 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | FR-07.3  | Systemet ska låta en spelare skapar en match som en annan spelare kan ansluta till via en länk. |
 | FR-07.4  | Systemet ska hantera turordningen mellan två spelare i ett onlinespel. |
 
-## Pause och gå tillbaka till ett spel mot datorn
-
-| ID       | Krav |
-|----------|------|
-| FR-09.1  | Systemet ska kunna spara ett pågående spel så att spelaren kan fortsätta det senare. |
-| FR-09.2  | Systemet ska kunna återuppta ett tidigare avbrutet spel. |
-
 ## Vinst
 
 | ID       | Krav |
