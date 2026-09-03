@@ -9,9 +9,11 @@
 |Relaterade FR | FR-04.2, FR-04.3, FR-04.5, FR-04.6, FR-06.5, FR-06.6, FR-06.9, FR-07.2, FR-07.3, FR-07.4|
 |Relaterade NFR | NFR-01 Användarvänlighet, NFR-05 Kompatibilitet, NFR-06 Anslutning via länk, NFR-08 Säkerhet och integritet |
 
-## Aktör: En spelare 
+## Aktör: 
+En spelare 
 
-### Mål: Spelaren vill kunna ansluta till en Gomoku match genom en länk utan att behöva skapa ett konto eller lämna känsliga personuppgifter.
+### Mål: 
+Spelaren vill kunna ansluta till en Gomoku match genom en länk utan att behöva skapa ett konto eller lämna känsliga personuppgifter.
 
 ### Förutsättningar:
 - Ena spelaren har fått en giltig länk till en pågående Gomoku match.
