@@ -19,7 +19,7 @@
 | FR-04.5  | Systemet ska tillåta användaren att starta ett spel utan att kräva personlig information. |
 | FR-04.6  | Systemet ska tillåta användaren att spela ett parti från start till slut utan att samla in personlig information. |
 
-## Användaren hanterar Cookies
+## Användaren hanterar Cookies (icke-funktionellt krav)
 
 | ID       | Krav |
 |----------|------|
