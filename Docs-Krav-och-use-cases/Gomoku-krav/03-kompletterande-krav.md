@@ -36,3 +36,11 @@
 | FR-08.1  | Systemet ska kunna hantera att en spelare tillfälligt tappar internetanslutningen under ett pågående onlinespel. |
 | FR-08.2  | Systemet ska återuppta ett pågående spel när spelaren återansluter. |
 
+## Pausa och gå tillbaka till ett spel mot datorn
+
+| ID       | Krav |
+|----------|------|
+| FR-09.1  | Systemet ska kunna spara ett pågående spel så att spelaren kan fortsätta det senare. |
+| FR-09.2  | Systemet ska kunna återuppta ett tidigare avbrutet spel. |
+
+
