@@ -14,7 +14,7 @@ Nedan finns regler och villkor som systemet alltid ska följa under en Gomoku ma
 ## Spelbräde och position regler
 | ID | Regler |
 |-------|-------|
-|BR-6|Ett drag får endast place en sten från sin plats till en ledig position|
+|BR-6|Ett drag får endast placera en sten från sin plats till en ledig position|
 |BR-7|En position som är upptagen får inte användas för ett nytt drag|
 |BR-8|Ett drag kan bara utföras på en position som finns på spelbrädet|
 |BR-9|En sten kan inte flyttas efter att den har placerats på en ledig position|
@@ -43,7 +43,7 @@ Nedan finns regler och villkor som systemet alltid ska följa under en Gomoku ma
 |-------|-------|
 |BR-21|När en spelare kör mot dator ska matchen fungera precis som en motståndare och endast göra drag när det är datorns tur|
 |BR-22|Spelaren ska kunna välja innan matchen vilken svårighetsgrad hen vill ha. Lätt, medel eller svår|
-|BR-23|Datan ska alltid följa grundläggande spelregler precis som en mänsklig spelare|
+|BR-23|Datorn ska alltid följa grundläggande spelregler precis som en mänsklig spelare|
 
 ## Lokalt spel och distans-regler
 | ID | Regler |
@@ -69,7 +69,6 @@ Nedan finns regler och villkor som systemet alltid ska följa under en Gomoku ma
 ## Anonymt spelande 
 | ID | Regler |
 |-------|-------|
-|BR-34|En Gomoku match ska kunna spelas anonymt utan att användaren behöver skapa ett konto eller logga in|
-|BR-35|Spelet ska alltid kunna användas direkt i en webbläsare utan att spelaren behöver installera något program|
-|BR-36|Spelet ska kunna användas på både datorer och mobiltelefoner|
+|BR-34|Spelet ska alltid kunna användas direkt i en webbläsare utan att spelaren behöver installera något program|
+|BR-35|Spelet ska kunna användas på både datorer och mobiltelefoner|
 
