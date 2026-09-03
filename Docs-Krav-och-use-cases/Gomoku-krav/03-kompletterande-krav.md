@@ -4,7 +4,7 @@
 
 | ID       | Krav |
 |----------|------|
-| FR-03.1  | Systemet ska visa en meny med svårighetsgraderna "lätt, "medel" och "svår" när spelaren väljer att spela mot datorn. |
+| FR-03.1  | Systemet ska visa en meny med svårighetsgraderna "lätt", "medel" och "svår" när spelaren väljer att spela mot datorn. |
 | FR-03.2  | Systemet ska låta spelaren välja en av svårighetsgraderna. |
 | FR-03.3  | Systemet laddar ett spel mot datorns AI med den valda svårighetsgraden. |
 
@@ -13,7 +13,7 @@
 | ID       | Krav |
 |----------|------|
 | FR-04.1  | Systemet ska låta en ny användare öppna Gomoku i en webbläsare. |
-| FR-04.2  | Systemet ska låta användaren starta ett spel utan registrarat konto. |
+| FR-04.2  | Systemet ska låta användaren starta ett spel utan registrerat konto. |
 | FR-04.3  | Systemet ska låta användaren starta ett spel utan att användaren behöver vara inloggad. |
 | FR-04.4  | Systemet ska tillåta användaren att välja spelläge utan att samla in personlig information. |
 | FR-04.5  | Systemet ska tillåta användaren att starta ett spel utan att kräva personlig information. |
@@ -25,8 +25,8 @@
 |----------|------|
 | FR-05.1  | Systemet ska tillåta att en användare öppnar Gomoku via en webbläsare. |
 | FR-05.2  | Systemet ska kunna informera om hemsidan använder cookies eller annan typ av spårning. |
-| FR-05.3  | Systemet ska inte automatiskt samal in information om användaren utan samtycke. |
-| FR-05.4  | Systemet ska låta användaren godkänna eller neka cookies och samt annat som kräver godkännande. |
+| FR-05.3  | Systemet ska inte automatiskt samla in information om användaren utan samtycke. |
+| FR-05.4  | Systemet ska låta användaren godkänna eller neka cookies samt annat som kräver godkännande. |
 | FR-05.5  | Systemet ska låta användaren spela Gomoku även när cookies nekats. |
 
 ## Återanslut till spel
