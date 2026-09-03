@@ -9,7 +9,7 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | ID       | Krav |
 |----------|------|
 | FR-01.1  | Systemet ska tillåta att en spelare går med i spelet. |
-| FR-01.2  | Systemet ska kunna identifera om spelet är mot datorn, hot-seat multiplayer eller online multiplayer. |
+| FR-01.2  | Systemet ska kunna identifiera om spelet är mot datorn, hot-seat multiplayer eller online multiplayer. |
 | FR-01.3  | Systemet ska kunna ladda en spelplan av förvald storlek. | 
 | FR-01.4  | Systemet ska kunna tilldela korrekt markör till spelare. | 
 | FR-01.5  | Systemet ska automatiskt ange vilken spelare som börjar utifrån tilldelad markör. |
@@ -22,10 +22,10 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | FR-02.4  | Systemet ska kunna ladda en spelplan av förvald storlek. | 
 | FR-02.5  | Systemet ska kunna tilldela korrekt markör till spelaren. |
 | FR-02.6  | Systemet ska automatiskt ange om spelaren eller om datorns AI börjar utifrån tilldelad markör. |
-| FR-02.7  | Śystemet ska tillåta spelare 1 att placera sin markör på en tom punkt på spelplanen. | |
+| FR-02.7  | Systemet ska tillåta spelare 1 att placera sin markör på en tom punkt på spelplanen. | |
 | FR-02.8  | Systemet ska hantera turordning mellan spelaren och datorn. |
 | FR-02.9  | Systemet ska automatisk identifiera när spelaren eller datorns AI får 5 i rad. |
-| FR-02.10 | Systemet ska automatikst avsluta spelet när spelaren eller datornn AI fått fem i rad och deklarera vinnaren. |
+| FR-02.10 | Systemet ska automatiskt avsluta spelet när spelaren eller datorn AI fått fem i rad och deklarera vinnaren. |
 | FR-02.11 | Systemet ska automatiskt identifiera när spelplanen är full och ingen fått fem i rad. |
 | FR.02.12 | Systemet ska automatiskt avsluta spelet när spelplanen är full och deklarera oavgjort. |
 
@@ -34,13 +34,11 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | ID       | Krav |
 |----------|------|
 | FR-06.1  | Systemet ska skapa ett unikt match id när användaren startar en ny match. |
-| FR-06.2  | Systemet ska visa "kopiera länk" samt "visa  QR-kod" efter att användaren skapat en match. |
+| FR-06.2  | Systemet ska visa "kopiera länk" efter att användaren skapat en match. |
 | FR-06.3  | Systemet ska låta användaren kopiera länken. |
-| FR-06.4  | Systemet ska låta användaren skicka länken genom att klistra in den i en app. |
+| FR-06.4  | Systemet ska låta användaren skicka länken. |
 | FR-06.5  | Systemet ska omdirigera användaren när hen klickar på en invite länk. |
 | FR-06.6  | Systemet ska ladda ett spel när hen klickar på invite länken. |
-| FR-06.7  | Systemet ska låta användaren ta bild på QR koden och få upp en länk. |
-| FR-06.8  | Systemet ska omdirigera användaren när hen klickar på länken från QR koden. |
 | FR-06.9  | Systemet ska låta användaren spela spelet utan att hen behöver ha ett konto eller logga in. |
 
 ## Multiplayer spel
@@ -49,7 +47,7 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 |----------|------|
 | FR-07.1  | Systemet ska tillåta två spelare att spela mot varandra på samma enhet (hot-seat). |
 | FR-07.2  | Systemet ska tillåta två spelare att spela mot varandra via en delad spellänk. |
-| FR-07.3  | Systemet ska låta en spelare skapar en match som en annan spelare kan ansluta till via en länk. |
+| FR-07.3  | Systemet ska låta en spelare skapa en match som en annan spelare kan ansluta till via en länk. |
 | FR-07.4  | Systemet ska hantera turordningen mellan två spelare i ett onlinespel. |
 
 ## Vinst
