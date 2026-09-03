@@ -1,7 +1,6 @@
 # Inledning för projeket
-
-Projektet handlar om att utveckla ett spel som är webbaserad där en användare kan spela direkt i webbläsaren. 
-Spelet heter G0omoku och tanken är att det ska vara enkelt att komma igång och börja spela utan att användaren ska behöva installera något program eller skapa ett konto.
+Projektet handlar om att utveckla ett spel som är webbaserad där en användare kan spela direkt i webbläsaren.
+Spelet heter Gomoku och tanken är att det ska vara enkelt att komma igång och börja spela utan att användaren ska behöva installera något program eller skapa ett konto.
 
 # Syftet med systemet
 
@@ -27,11 +26,13 @@ Systemet ska därför vara enkelt att använda när två personer spelar mot var
 | Begreppslista-00 | En mapp med en fil som innehåller alla domän och tekniska termer som anävnds i kravspecifikationen |
 | 01-inledning.md | System beskrivning med syftet, användare och problem som ska de ska lösa |
 | 02-funktionella-krav.md | Tabeller över nödvändiga krav för vad systemet måste kunna göra |
-| 03-kompletterande-krav.md |  
+| 03-kompletterande-krav.md | Extra villkor och lagkrav som måste uppfyllas för att ett system ska fungera fullt ut. |
 | 04-icke-funktionella-krav.md | Krav på systemet som är viktiga för användarupplevelse. Prestanda/ användbarhet/  kompatibilitet/tillförlitlighet |
 | 05-begreppsmodell.md | Viktiga centrala begrepp i systemet och vad dom har för relation till systemts funktion |
-| 06-user-journey.md | INGET ÄN |
+| 06-user-journey.md | Beskrivning på hur en användare upplever och interagerar med systemet från början till slut när användaren försöker att uppnå ett specifikt mål i systemet. |
 | 07-use-cases-overview.md | INGEN ÄN | 
+| 11-business rules| Villkor, formler och strategier som bestämmer hur en verksamhet fungerar och vad systemet måste följa |
+| 12-traceability-matrix.md | Koppla samman och spåra krav mot design, kod och testfall |
 
 # Översikt över användningsfall för Gomoku 
 | Namn på fil | vad finns i den? |
@@ -46,7 +47,8 @@ Systemet ska därför vara enkelt att använda när två personer spelar mot var
 | UC-08-spelaren-vill-avsluta-match.md | UC för en spelare som vill avsluta en pågående match |
 | UC-09-spelaren-vill-forsatta-pagaende-match.md | UC för en spelare som fortsätta en pågående match |
 | UC-10-spelaren-vill-se-match-resultat.md | UC för en spelare som vill se resultatet av en match |
-| UC-11-spelaren-vill-fortsätta-efter-internetavgbrott.md | UC för en spelare som vill fortsätta en match efter internetavbrott |
+| UC-11-spelaren-vill-fortsätta-efter-internetavbrott.md | UC för en spelare som vill fortsätta en match efter internetavbrott |
+| UC-12-Spelaren-håller-samma-state | Inget än |
 
 
 

@@ -12,13 +12,17 @@
 
 ## Relevant GDPR: Data minimization Privacy/Transparency
 
-Aktör: En spelare
+## Aktör: 
+En spelare
 
-Mål: Säkerställa att systemet inte kräver personuppgifter från en spelare som inte är inloggad för att den ska fungera. 
+## Mål: 
+Säkerställa att systemet inte krväer personuppgifter från en spelare som inte är inloggad och som vill spela Gomoku. 
 
-Förutsättning: Användaren öppnar Gomoku för första gången från en webbläsare 
+### Förutsättning: 
+- Användaren öppnar Gomoku för första gången från en webbläsare
+- Användaren behöver inte ha ett konto eller vara inloggad.
 
-### Huvudflöde:
+# Huvudflöde:
 
 1. Användaren öppnar Gomoku för första gången från en webbläsare.
 2. Systemet låter användaren starta ett spel utan att kräva konto eller inloggning. 
@@ -26,13 +30,12 @@ Förutsättning: Användaren öppnar Gomoku för första gången från en webbl�
 4. Systemet kräver inte personuppgifter för att den ska fungera.
 5. Användaren kan spela en hel Gomoku match från början till slut utan att behöva registrera ett konto eller logga in. 
 
-### Alternativa flöde: 
+## Alternativa flöde: 
+- Användaren kan välja logga in om systemet visar det.
+- Systemet låter användaren skapa eller ansluta till en match utan att kräva ett konto.
+- Användaren kan fortsätta använda spelet utan att lämna personuppgifter. 
 
-- 
--
--
-
-### Förväntat resultat: 
+# Förväntat resultat: 
 Användaren kan starta Gomoku och spela en match utan att behöva registrera ett konto, logg in eller lämna något personuppgifter. Systemet ska även inte kräva personuppgifter för att den ska fungera. 
 
 
