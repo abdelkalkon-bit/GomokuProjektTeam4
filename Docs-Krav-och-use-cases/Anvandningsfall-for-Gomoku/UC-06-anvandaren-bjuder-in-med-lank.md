@@ -29,9 +29,5 @@ Spelaren är på hemsidan för Gomoku och vill starta som hans vän ska kunna an
 4. Spelarens vän klickar på länken för att köra.
 5. Spelarens vän kan delta i spelet utan att behöva skapa ett konto.
 
-### Alternativa flöde:
-- 
-- 
-
-### Förväntat resultat:
+# Förväntat resultat:
 Kontrollera att systemet inte kräver personuppgifter eller konto från personen som anslutar via en länk. Kontrollera även att systemet inte samlar in personuppgifter och att användaren kan dela länken till en gomoku-match med sin vän. 

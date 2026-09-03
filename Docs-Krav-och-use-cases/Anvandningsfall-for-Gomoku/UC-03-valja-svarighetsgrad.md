@@ -31,10 +31,10 @@ Spelaren vill välja en lämplig svårighetsgrad mot datorn, lätt, medel eller 
 3. Systemet fortsätter vidare med den valde svårighetsgraden för spelet och brädan visas.
 
 
-### Alternativa flöde:
+# Alternativa flöde:
 - Om en spelare ändrar sitt val innan matchen startar kan spelaren välja ett annat alternativ av de tre svårighetsgraderna. 
 
-### Förväntat resultat:
+# Förväntat resultat:
 
 Spelaren kan välja olika svårighetsgrader, lätt, medel och svår. Den valde svårighetsgraden används när gomoku matchen startas och datan anpassar sig efter spelarens val. 
 

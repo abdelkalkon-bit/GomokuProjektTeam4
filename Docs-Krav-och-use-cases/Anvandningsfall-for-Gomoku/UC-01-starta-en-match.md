@@ -30,6 +30,6 @@ Spelare vill starta ett nytt Gomoku match
  3. Systemet visar spelplanen för spelaren.
  4. Systemet anger automatiskt vilken spelare som börjar.
 
-### Förävntat resultat:
+# Förävntat resultat:
 En ny match har startats med rätt motståndartyp (dator eller människa). Spelplanen är tom och redo för första motståndare att göra ett drag. Turordningen har även aktiverts för den spelare som ska börja.
 

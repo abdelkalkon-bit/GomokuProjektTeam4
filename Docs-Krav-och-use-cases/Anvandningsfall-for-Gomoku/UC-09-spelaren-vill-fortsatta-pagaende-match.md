@@ -30,6 +30,6 @@ Spelaren vill återgå till en pausad match mot datorn eller lokal multiplayer.
 5. Spelbrädans tillstånds är identiskt som det var innan spelet pausades
 6. Turordningen hanteras korrekt
 
-### Förväntat resultat
+# Förväntat resultat
 
 Brädet fryser i det senaste läget innan spelet pausades. Pausmeny poppar upp med tra val: "Fortsätt", "Spara och avsluta" (om spelaren spelar mot datorn), och "Till huvudmeny". Spelaren väljer "Fortsätt" och spelet uppstår från att vara fryst. Spelbrädets tillstånd är identiskt som det var innan spelet pausades. Turodningen hanteras korrekt.

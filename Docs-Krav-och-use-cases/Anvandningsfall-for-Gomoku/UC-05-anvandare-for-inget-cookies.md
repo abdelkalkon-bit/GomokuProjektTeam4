@@ -29,10 +29,10 @@ Användaren besöken hemsidan för Gomoku
 4. Systemet ser till att den sparar användarens val.
 5. Spelet fortsätter att fungera som den ska utan att spelaren behöver godkänna cookies.
 
-### Alternativa flöde: 
+## Alternativa flöde: 
 -  Användaren nekar cookies
 - Systemet applicerar användarens val och använder inte cookies som kräver samtycke. 
 
-### Förväntat resultat av denna GDPR-test: 
+# Förväntat resultat av denna GDPR-test: 
 
 Kontrollera att cookies eller annan typ av spårning inte goodkänns automatiskt utan samtycke. Användaren får information om användingen av cookieis på hemsidan och hantera acceptera eller neka dom. Gomoku ska även fortfarande vara möjlig att spela även när cookies nekas.  

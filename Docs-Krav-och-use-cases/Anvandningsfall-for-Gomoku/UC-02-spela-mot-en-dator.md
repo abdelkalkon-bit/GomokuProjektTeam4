@@ -18,7 +18,7 @@ En spelare
 ## Målet: 
 Spelaren vill kunna spela en Gomoku match mot dator
 
-##  Förutsättningar: 
+### Förutsättningar: 
 
  - Spelaren har internet och är på startsidan
 
@@ -32,5 +32,5 @@ Spelaren vill kunna spela en Gomoku match mot dator
 6. Steg 4 och 5 fortsätter att upprepas tills en personer vinner eller att det blir oavgjort. 
 
 
-### Förväntat resultat:
+# Förväntat resultat:
 Spelaren kan välja svårighetsgrad mot en dator och spela utan hinder. Spelet visas och avslutas när en av spelarna vinner eller att resultatet blir oavgjort. 

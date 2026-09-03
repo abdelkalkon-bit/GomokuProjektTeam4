@@ -12,7 +12,7 @@
 ## Aktör: 
 En spelare 
 
-### Mål: 
+## Mål: 
 Spelaren vill kunna ansluta till en Gomoku match genom en länk utan att behöva skapa ett konto eller lämna känsliga personuppgifter.
 
 ### Förutsättningar:

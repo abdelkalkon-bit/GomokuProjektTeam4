@@ -30,7 +30,7 @@ Spelare vill avsluta pågående Gomoku match.
 4. Brädet fryser.
 5. Avslutningsskärm poppar upp med texten "Match avslutad" samt valen "Spela igen" och "Till huvudmeny".
 
-### Förväntat resultat
+# Förväntat resultat
 
 Brädet fryser i det senaste läget det befann sig i, spelet avslutas och användaren får upp en avslutningsskärm med texten "Match avslutad" samt valen "Spelaigen" och "Till huvudmeny".
 

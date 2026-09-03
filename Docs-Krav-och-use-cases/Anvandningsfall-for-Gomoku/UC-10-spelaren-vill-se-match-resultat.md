@@ -21,7 +21,7 @@ En spelare
 ## Mål:
 Spelaren vill se om han/hon vann, förlorade eller om matchen slutade oavgjort
 
-## Förutsättningar: 
+### Förutsättningar: 
 * Spelaren befinner sig i en pågående match
 * Ett drag har precis genomförts av en av spelarna
 
@@ -31,7 +31,7 @@ Spelaren vill se om han/hon vann, förlorade eller om matchen slutade oavgjort
 3. Systemet identifierar att en spelare har uppnått fem i rad.
 4. Systemet avslutar matchen och visar vinnaren för båda spelarna.
 
-## Alternativa flöden:
+# Alternativa flöden:
 * 3a. Oavgjort: Om spelplanen blir full utan att någon spelare uppnått fem i rad, avslutar systemet matchen och meddelar att resultatet blev oavgjort.
 * 3b. Motståndaren lämnar matchen:** Om motståndaren avbryter eller lämnar matchen innan den är avslutad, meddelar systemet att spelaren vinner matchen genom walkover.
 

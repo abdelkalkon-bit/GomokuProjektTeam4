@@ -30,12 +30,12 @@ Säkerställa att systemet inte krväer personuppgifter från en spelare som int
 4. Systemet kräver inte personuppgifter för att den ska fungera.
 5. Användaren kan spela en hel Gomoku match från början till slut utan att behöva registrera ett konto eller logga in. 
 
-### Alternativa flöde: 
+## Alternativa flöde: 
 - Användaren kan välja logga in om systemet visar det.
 - Systemet låter användaren skapa eller ansluta till en match utan att kräva ett konto.
 - Användaren kan fortsätta använda spelet utan att lämna personuppgifter. 
 
-### Förväntat resultat: 
+# Förväntat resultat: 
 Användaren kan starta Gomoku och spela en match utan att behöva registrera ett konto, logg in eller lämna något personuppgifter. Systemet ska även inte kräva personuppgifter för att den ska fungera. 
 
 
