@@ -19,8 +19,6 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | ID       | Krav |
 |----------|------|
 | FR-02.1  | Systemet ska kunna tillåta att en spelare går med i spelet mot datorns AI. |
-| FR-02.2  | Systemet ska låta spelaren välja svårighetsgrad, "lätt", "medium" eller "svårt". |
-| FR-02.3  | Systemet ska kunna identifiera vilken svårighetsgrad som valts. |
 | FR-02.4  | Systemet ska kunna ladda en spelplan av förvald storlek. | 
 | FR-02.5  | Systemet ska kunna tilldela korrekt markör till spelaren. |
 | FR-02.6  | Systemet ska automatiskt ange om spelaren eller om datorns AI börjar utifrån tilldelad markör. |
@@ -30,25 +28,6 @@ Som en spelare vill jag spela Gomoku mot en motståndare tills en av oss får fe
 | FR-02.10 | Systemet ska automatikst avsluta spelet när spelaren eller datornn AI fått fem i rad och deklarera vinnaren. |
 | FR-02.11 | Systemet ska automatiskt identifiera när spelplanen är full och ingen fått fem i rad. |
 | FR.02.12 | Systemet ska automatiskt avsluta spelet när spelplanen är full och deklarera oavgjort. |
-
-## Välj svårighetsgrad
-
-| ID       | Krav | 
-|----------|------|
-| FR-03.1  | Systemet ska visa en meny med svårighetsgraderna "lätt, "medel" och "svår" när spelaren väljer att spela mot datorn. |
-| FR-03.2  | Systemet ska låta spelaren välja en av svårighetsgraderna. |
-| FR-03.3  | Systemet laddar ett spel med den valda svårighetsgraden. |
-
-## Spela anonymt utan konto
-
-| ID       | Krav |
-|----------|------|
-| FR-04.1  | Systemet ska låta en ny användare öppna Gomoku i en webbläsare. |
-| FR-04.2  | Systemet ska låta användaren starta ett spel utan registrarat konto. |
-| FR-04.3  | Systemet ska låta användaren starta ett spel utan att användaren behöver vara inloggad. |
-| FR-04.4  | Systemet ska tillåta användaren att välja spelläge utan att samla in personlig information. |
-| FR-04.5  | Systemet ska tillåta användaren att starta ett spel utan att kräva personlig information. |
-| FR-04.6  | Systemet ska tillåta användaren att spela ett parti från start till slut utan att samla in personlig information. |
 
 ## Användaren hanterar Cookies
 
