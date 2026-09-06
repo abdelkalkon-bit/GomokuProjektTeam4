@@ -79,6 +79,20 @@ Krav: Systemet ska inte kräva personlig information för att användaren ska ku
 ### Hur kan kravet testas? 
 Starta ett spel utan att skapa ett konto eller logga in. Kontrollera att information som visas i en invite länk för en vän inte innehåller spelarens personliga information.
 
+# NRF-09 Visuell stabilitet
+
+## Frågan från kunden:
+Är det viktigt för dig att spelplanen ligger stilla och har samma storlek medan du spelar?
+
+## Kunden svar: 
+Ja, helst. Det skulle kännas konstigt om brädet ändrar storlek eller flyttar sig medan jag spelar
+
+## Krav:
+Spelplanens storlek och position ska förbli oförändrade när en sten placeras. Rutorna på spelplanen ska även behålla samma storlek och position under hela matchen.
+
+## Hur kan kravet testas?
+
+Starta ett parti och placera flera olika stenar på olika delar av spelplanen. Kontrollera att spelplanen inte ändrar storlek alls när en sten placeras. Rutorna ska inte krympa och spelplanen ska inte flytta på sig när stenarna placeras i en tom ruta. 
 
 
 # Sammanfattning:
