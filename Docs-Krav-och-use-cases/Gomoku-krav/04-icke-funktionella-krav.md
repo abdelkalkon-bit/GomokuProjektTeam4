@@ -112,6 +112,18 @@ Starta ett parti och placera flera olika stenar på olika delar av spelplanen. K
 Intervjun med kunden användes för att identifiera många icke-funktionella krav som är viktiga för kunden utan att kunden är medveten om det. Genom att exempelvis utgå från prestanda, enheter, internetanslutning och användarens behov kunde de icke-funktionella kraven tas fram utan onödiga frågor. 
 Ett krav är en förväntning på systemet som går att testa, och kraven kan testas genom olika praktiska tester, till exempel genom att använda olika enheter, stänga av internet under en pågående match eller kontrollera hur snabbt spelet reagerar efter ett drag. 
 
+# Systemets icke-funktionella krav: 
+| ID | KRAV | 
+|-------|-------|
+|NFR-01| Användarvänlighet: Spelet ska vara enkelt att förstå och använda även för en person utan teknisk kunskap|  
+|NFR-02| Responsiv design:	Spelplan, knappar och information ska fungera och anpassas till mobil och dator.  |
+|NFR-03| Prestanda: Spelet ska reagera snabbt på spelarens drag och inte kännas segt. |
+|NFR-04| Anonym användning: Användaren ska kunna spela utan att skapa konto eller logga in. |
+|NFR-05| Kompatibilitet: Spelet ska fungera på mobil och dator direkt i webbläsaren utan installation.|
+|NFR-06| Anslutning via länk: Två spelare ska kunna spela tillsammans från samma eller olika platser.|
+|NFR-07| Tillförlitlighet: Spelet ska kunna hantera tillfälligt internetavbrott utan att matchen förloras |
+|NFR-08| Säkerhet och integritet: Personlig information ska inte krävas för att spela och ska inte finnas i inbjudningslänken. |
+|NFR-09| Visuell stabilitet: Spelplanens storlek, position och även rutornas dimensioner ska fortsätta vara oförändrade när en sten placeras. Placera flera stenar och kontrollera att brädet inte krymper, flyttar sig eller ändrar storlek. |
 ```mermaid
 flowchart TD
     A["Icke-funktionella krav"] --> B["Användarvänlighet"]
