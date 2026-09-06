@@ -12,15 +12,17 @@
 | **Relaterad NFR** | NFR-01 Användarvänlighet, NFR-03 Prestanda |
 
 
-Aktör: En spelare
+## Aktör: 
+En spelare
 
-Målet: Spelaren vill kunna spela en Gomoku match mot dator
+## Målet: 
+Spelaren vill kunna spela en Gomoku match mot dator
 
-Förutsättningar: 
+### Förutsättningar: 
 
  - Spelaren har internet och är på startsidan
 
-### Huvudflöde: 
+# Huvudflöde: 
 
 1. Spelaren befinner sig på startsidan och väljer att spela mot en dator
 2. Systemet låter spelaren välja svårighetsgrad sedan startar ett nytt spel.
@@ -30,5 +32,5 @@ Förutsättningar:
 6. Steg 4 och 5 fortsätter att upprepas tills en personer vinner eller att det blir oavgjort. 
 
 
-### Förväntat resultat:
+# Förväntat resultat:
 Spelaren kan välja svårighetsgrad mot en dator och spela utan hinder. Spelet visas och avslutas när en av spelarna vinner eller att resultatet blir oavgjort. 

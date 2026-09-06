@@ -9,16 +9,20 @@
 | Version           | 1.0                            |
 | Preliminär Aktör  | Gäst User, Registrerad Användare |
 | Sekundär Aktör    | AI motståndare, annan spelare  |
-| Relaterad FR      | …                              |
-| Relaterad NFR     | …                              |
+| Relaterad FR      | FR-10.4, FR-10.6, FR-10.7, FR-11.2, FR-11.4, FR-11.5 |
+| Relaterad NFR     | NFR-01, NFR-03 |
 
-Aktör: En spelare.
+## Aktör: 
 
-Mål: Spelare vill avsluta pågående Gomoku match.
+En spelare.
 
-Förutsättningar: Spelaren är inne i ett pågånde spel.
+## Mål: 
+Spelare vill avsluta pågående Gomoku match.
 
-### Huvudflöde
+### Förutsättningar: 
+- Spelaren är inne i ett pågånde spel.
+
+# Huvudflöde
 
 1. Spelaren väljer att avsluta pågående spel mot datorn eller annan spelare.
 2. Spelaren får upp en bekräftelseruta med valen "Avsluta match" och "Fortsätt spela".
@@ -26,7 +30,7 @@ Förutsättningar: Spelaren är inne i ett pågånde spel.
 4. Brädet fryser.
 5. Avslutningsskärm poppar upp med texten "Match avslutad" samt valen "Spela igen" och "Till huvudmeny".
 
-### Förväntat resultat
+# Förväntat resultat
 
 Brädet fryser i det senaste läget det befann sig i, spelet avslutas och användaren får upp en avslutningsskärm med texten "Match avslutad" samt valen "Spelaigen" och "Till huvudmeny".
 

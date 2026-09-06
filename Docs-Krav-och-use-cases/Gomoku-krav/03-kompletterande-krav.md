@@ -1,16 +1,46 @@
 # Kompletterande Krav
 
-## Identifierade Kompletterande Krav
+## Välj svårighetsgrad
 
-- Återanslutning - Spelaren ska kunna återansluta till en match när förlorad täckning kommit tillbaka
-- Spara och fortsätta - Spelaren ska kunna spara ett parti som spelas mot datorn och kunna komma tillbaka till det senare. Spelat ska vara i samma skick som när det avslutades.
-- Rutnätsstorlek - Spelaren ska kunna välja rutnätstorlek 15 x 15 eller 19 x 19 i Inställngar
-- Grafisk markering - Spelaren ska kunna välja mellan kryss och cirkel markeringar eller vita och svarta markeringar
-- Interaktionspunkt - Spelaren vill kunna välja mellan att placera sin markering på en korsning på spelrutan eller inuti en ruta
-- Svårighetsgrader - Spelaren ska kunna välja mellan lätt, medium eller svårt när hen spelar mot datorn
-- Ångra drag - Spelaren ska kunna ångra drag för spel mot datorn och hot-seat online spel 
-- Valfri inloggning - Spelet ska erbjuda valfri inloggning där spelaren kan se sin spelhistorik
-- Historik - Spelaren ska kunna se sin historik förutsatt att hen är inloggad
-- Regelpaket - Spelaren ska kunna välja mellan Standard Gomoku eller Renju inspirerade Pro regler i Inställngarna
-- Öppningsstilar - Spelaren ska kunna välja mellan Fri öppning och Fast öppning i Inställningarna
+| ID       | Krav |
+|----------|------|
+| FR-03.1  | Systemet ska visa en meny med svårighetsgraderna "lätt", "medel" och "svår" när spelaren väljer att spela mot datorn. |
+| FR-03.2  | Systemet ska låta spelaren välja en av svårighetsgraderna. |
+| FR-03.3  | Systemet laddar ett spel mot datorns AI med den valda svårighetsgraden. |
+
+## Spela anonymt utan konto
+
+| ID       | Krav |
+|----------|------|
+| FR-04.1  | Systemet ska låta en ny användare öppna Gomoku i en webbläsare. |
+| FR-04.2  | Systemet ska låta användaren starta ett spel utan registrerat konto. |
+| FR-04.3  | Systemet ska låta användaren starta ett spel utan att användaren behöver vara inloggad. |
+| FR-04.4  | Systemet ska tillåta användaren att välja spelläge utan att samla in personlig information. |
+| FR-04.5  | Systemet ska tillåta användaren att starta ett spel utan att kräva personlig information. |
+| FR-04.6  | Systemet ska tillåta användaren att spela ett parti från start till slut utan att samla in personlig information. |
+
+## Användaren hanterar Cookies
+
+| ID       | Krav |
+|----------|------|
+| FR-05.1  | Systemet ska tillåta att en användare öppnar Gomoku via en webbläsare. |
+| FR-05.2  | Systemet ska kunna informera om hemsidan använder cookies eller annan typ av spårning. |
+| FR-05.3  | Systemet ska inte automatiskt samla in information om användaren utan samtycke. |
+| FR-05.4  | Systemet ska låta användaren godkänna eller neka cookies samt annat som kräver godkännande. |
+| FR-05.5  | Systemet ska låta användaren spela Gomoku även när cookies nekats. |
+
+## Återanslut till spel
+
+| ID       | Krav |
+|----------|------|
+| FR-08.1  | Systemet ska kunna hantera att en spelare tillfälligt tappar internetanslutningen under ett pågående onlinespel. |
+| FR-08.2  | Systemet ska återuppta ett pågående spel när spelaren återansluter. |
+
+## Pausa och gå tillbaka till ett spel mot datorn
+
+| ID       | Krav |
+|----------|------|
+| FR-09.1  | Systemet ska kunna spara ett pågående spel så att spelaren kan fortsätta det senare. |
+| FR-09.2  | Systemet ska kunna återuppta ett tidigare avbrutet spel. |
+
 

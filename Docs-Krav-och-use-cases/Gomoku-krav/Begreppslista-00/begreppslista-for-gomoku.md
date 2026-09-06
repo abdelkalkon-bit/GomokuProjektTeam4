@@ -10,9 +10,12 @@ Denna begreppslista visar alla domän och tekniska termer som används i kravspe
 | Motståndare | Den andra deltagren i ett Gomoku spel, motståndaren kan vara en annan spelare men kan också vara dator |
 | Spel/match | En omgång Gomoku mellan två motståndare som avslutas när en av spelarna vinner eller att spelet blir oavgjort |
 | Spelbräde | Det är en rutnät där spelarna placerar sina stenar under spelet | 
+| Position | En specifik plats på spelbrädet där en sten kan placeras. |
 | Vinst | Ett resultat där en av spelarna har fått fem stenar i rad horisontellt, vertikalt eller diagonalt | 
 | Sten | Det är en spelpjäs som placeras på spelbrädet av en spelare under en match | 
 | Tur | Det är en period där en av spelarna får göra ett drag | 
+| Vinst | Ett resultat där en spelare har fått fem stenar i rad horisontellt, vertikalt eller diagonalt.|
+| Förlust | Ett resultat som visas när en motståndaren har vunnit matchen. |
 | Oavgjort | Ett resultat i en match där ingen av sspelarna lyckades vinna spelet. | 
 | Dator spelare | En programstyrd motståndare som spelar Gomoku mot en mänsklig spelare, lätt/medium eller svårt | 
 | Svårighetsgrad | Det är den valda nivån på utmaningen när en spelare väljer att spela mot en dator | 
@@ -28,3 +31,5 @@ Denna begreppslista visar alla domän och tekniska termer som används i kravspe
 | Funktionellt krav | Ett krav som beskriver en funktion eller ett beteende som Gomoku ska utföra | 
 | User story | En kort beskrivning på ett önskemål ur användarens perspektiv. Som användare, vill jag, för att. | 
 | Krav | Ett villkor som är dokumenterat, något systemet måste uppfylla | 
+| Spelinbjudan | Den information, vanligtvis en spellänk, som används för att låta en annan spelare ansluta till en match. |
+
