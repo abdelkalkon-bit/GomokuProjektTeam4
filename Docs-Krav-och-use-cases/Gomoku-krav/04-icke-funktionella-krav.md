@@ -125,6 +125,19 @@ Ett krav är en förväntning på systemet som går att testa, och kraven kan te
 |NFR-08| Säkerhet och integritet: Personlig information ska inte krävas för att spela och ska inte finnas i inbjudningslänken. |
 |NFR-09| Visuell stabilitet: Spelplanens storlek, position och även rutornas dimensioner ska fortsätta vara oförändrade när en sten placeras. Placera flera stenar och kontrollera att brädet inte krymper, flyttar sig eller ändrar storlek. |
 
+## Internetavbrott 
+| ID | Regler |
+|-------|-------|
+|BR-32| Ett tillfälligt internetavbrott ska inte automatiskt avsluta en pågående match som sker på distans mellan två spelare|
+|BR-33|När spelaren återansluter ska systemet alltid återställa den senaste giltiga spelstatus, tillstånd och turordning. (Om motståndaren inte har valt att avsluta matchen) |
+
+## Anonymt spelande 
+| ID | Regler |
+|-------|-------|
+|BR-34|Spelet ska alltid kunna användas direkt i en webbläsare utan att spelaren behöver installera något program|
+|BR-35|Spelet ska kunna användas på både datorer och mobiltelefoner|
+
+
 ```mermaid
 flowchart TD
     A["Icke-funktionella krav"] --> B["NFR-01 Användarvänlighet"]
