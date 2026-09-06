@@ -124,23 +124,47 @@ Ett krav är en förväntning på systemet som går att testa, och kraven kan te
 |NFR-07| Tillförlitlighet: Spelet ska kunna hantera tillfälligt internetavbrott utan att matchen förloras |
 |NFR-08| Säkerhet och integritet: Personlig information ska inte krävas för att spela och ska inte finnas i inbjudningslänken. |
 |NFR-09| Visuell stabilitet: Spelplanens storlek, position och även rutornas dimensioner ska fortsätta vara oförändrade när en sten placeras. Placera flera stenar och kontrollera att brädet inte krymper, flyttar sig eller ändrar storlek. |
+
 ```mermaid
 flowchart TD
-    A["Icke-funktionella krav"] --> B["Användarvänlighet"]
-    A --> C["Responsiv design"]
-    A --> D["Prestanda"]
-    A --> E["Anonym användning"]
-    A --> F["Kompatibilitet"]
-    A --> G["Anslutning via länk"]
-    A --> H["Tillförlitlighet"]
-    A --> I["Säkerhet och integritet"]
+    A["Icke-funktionella krav"] --> B["NFR-01 Användarvänlighet"]
+    A --> C["NFR-02 Responsiv design"]
+    A --> D["NFR-03 Prestanda"]
+    A --> E["NFR-04 Anonym användning"]
+    A --> F["NFR-05 Kompatibilitet"]
+    A --> G["NFR-06 Anslutning via länk"]
+    A --> H["NFR-07 Tillförlitlighet"]
+    A --> I["NFR-08 Säkerhet och integritet"]
+    A --> J["NFR-09 Visuell stabilitet"]
 
     B --> B1["Testa att en ny användare kan starta och spela"]
-    C --> C1["Testa spelplan och knappar på mobil och dator"]
-    D --> D1["Testa hur snabbt ett drag visas"]
-    E --> E1["Testa spel utan konto eller inloggning"]
-    F --> F1["Testa på mobil, dator och olika webbläsare"]
-    F --> F2["Testa spel mellan olika typer av enheter"]
-    G --> G1["Testa att ansluta till en match via länk"]
-    H --> H1["Bryt internet och kontrollera återanslutning"]
-    I --> I1["Testa att ingen personlig information krävs eller visas"]
+
+    C --> C1["Testa spelplan, knappar och information på mobil"]
+    C --> C2["Testa spelplan, knappar och information på dator"]
+
+    D --> D1["Testa hur snabbt spelarens drag visas"]
+    D --> D2["Testa fördröjning mellan två spelare"]
+
+    E --> E1["Testa att spela utan konto eller inloggning"]
+
+    F --> F1["Testa på Samsung-telefon"]
+    F --> F2["Testa på Windows-dator"]
+    F --> F3["Testa i modern webbläsare"]
+    F --> F4["Testa spel mellan olika typer av enheter"]
+
+    G --> G1["Testa att skapa en match"]
+    G --> G2["Testa att ansluta via inbjudningslänk"]
+    G --> G3["Testa spel från samma eller olika platser"]
+
+    H --> H1["Bryt internet under en match"]
+    H --> H2["Kontrollera att användaren informeras"]
+    H --> H3["Återanslut och kontrollera att matchen kan fortsätta"]
+
+    I --> I1["Testa att personlig information inte krävs"]
+    I --> I2["Kontrollera att inbjudningslänken inte innehåller personlig information"]
+
+    J --> J1["Placera flera stenar på spelplanen"]
+    J --> J2["Kontrollera att spelplanens storlek är oförändrad"]
+    J --> J3["Kontrollera att spelplanens position är oförändrad"]
+    J --> J4["Kontrollera att rutornas storlek och position är oförändrade"]
+```
