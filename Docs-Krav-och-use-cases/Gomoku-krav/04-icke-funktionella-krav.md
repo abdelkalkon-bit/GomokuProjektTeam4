@@ -124,6 +124,8 @@ Ett krav är en förväntning på systemet som går att testa, och kraven kan te
 |NFR-07| Tillförlitlighet: Spelet ska kunna hantera tillfälligt internetavbrott utan att matchen förloras |
 |NFR-08| Säkerhet och integritet: Personlig information ska inte krävas för att spela och ska inte finnas i inbjudningslänken. |
 |NFR-09| Visuell stabilitet: Spelplanens storlek, position och även rutornas dimensioner ska fortsätta vara oförändrade när en sten placeras. Placera flera stenar och kontrollera att brädet inte krymper, flyttar sig eller ändrar storlek. |
+|NFR-10| Säkerhet och integritet: En spelare ska kunna delta i en match utan att behöva lämna sina personuppgifter för att spela. |
+|NRF-11|Brädans tillstånd ska vara konsekvent för båda spelarna i en match som sker på distans.|
 
 ## Internetavbrott 
 | ID | Regler |
