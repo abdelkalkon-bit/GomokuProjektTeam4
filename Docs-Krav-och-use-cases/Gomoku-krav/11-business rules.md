@@ -60,15 +60,4 @@ Nedan finns regler och villkor som systemet alltid ska följa under en Gomoku ma
 |BR-30|När en pausad match återupptas så ska den alltid fortsätta från samma tillstånd som innan den pausades|
 |BR-31|En avslutad match ska inte kunna återupptas som en pågående match|
 
-## Internetavbrott 
-| ID | Regler |
-|-------|-------|
-|BR-32| Ett tillfälligt internetavbrott ska inte automatiskt avsluta en pågående match som sker på distans mellan två spelare|
-|BR-33|När spelaren återansluter ska systemet alltid återställa den senaste giltiga spelstatus, tillstånd och turordning. (Om motståndaren inte har valt att avsluta matchen) |
-
-## Anonymt spelande 
-| ID | Regler |
-|-------|-------|
-|BR-34|Spelet ska alltid kunna användas direkt i en webbläsare utan att spelaren behöver installera något program|
-|BR-35|Spelet ska kunna användas på både datorer och mobiltelefoner|
 
