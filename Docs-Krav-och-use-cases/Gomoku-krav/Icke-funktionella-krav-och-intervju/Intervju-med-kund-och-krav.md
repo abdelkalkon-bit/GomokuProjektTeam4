@@ -1,6 +1,6 @@
 # Icke-funktionella krav för Gomoku
 
-Vilka egenskaper ett system behöver ha är väldigt viktigt för användarupplevelsen. Kraven är framtagna genom en intervju med kunden. Under intervjun ställdes frågor kring hur snabbt spelet ska fungera, vilka enheter kunden använder men även vad som händer om anslutningen till internet plötsligt försvinner. 
+Nedan finns intervjun med Ai-kunden och hur vi arbetade med kravfångst.
 
 # NFR-01 Användarvänlighet
 ## Frågan från intervjun: 
