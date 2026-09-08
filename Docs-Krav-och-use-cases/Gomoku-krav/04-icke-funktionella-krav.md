@@ -2,119 +2,82 @@
 
 Vilka egenskaper ett system behöver ha är väldigt viktigt för användarupplevelsen. Kraven är framtagna genom en intervju med kunden. Under intervjun ställdes frågor kring hur snabbt spelet ska fungera, vilka enheter kunden använder men även vad som händer om anslutningen till internet plötsligt försvinner. 
 
-# NFR-01 Användarvänlighet
-## Frågan från intervjun: 
-Vill du att spelet ska vara enkelt att förstå även om du inte är tekniskt kunnig?
-## Kunden svar: 
-Ja, absolut. Jag vill helst bara kunna öppna det och börja spela utan att behöva förstå en massa tekniska saker.
-## Krav:
-Systemet ska vara enkelt att förstå och använda. Användaren ska kunna starta en Gomoku match och förstå hur man gör ett drag utan att behöva vara tekniskt kunnig.
-### Hur kan kravet testas?
-Låt en person som inte har kört Gomoku tidigare starta spelet och spela en match. Kontrollera att personen kan starta en match och göra ett drag utan hjälp från utvecklaren.
+# Systemets icke-funktionella krav: 
+| ID | KRAV | 
+|-------|-------|
+|NFR-01| Användarvänlighet: Spelet ska vara enkelt att förstå och använda även för en person utan teknisk kunskap|  
+|NFR-02| Responsiv design:	Spelplan, knappar och information ska fungera och anpassas till mobil och dator.  |
+|NFR-03| Prestanda: Spelet ska reagera snabbt på spelarens drag och inte kännas segt. |
+|NFR-04| Anonym användning: Användaren ska kunna spela utan att skapa konto eller logga in. |
+|NFR-05| Kompatibilitet: Spelet ska fungera på mobil och dator direkt i webbläsaren utan installation.|
+|NFR-06| Anslutning via länk: Två spelare ska kunna spela tillsammans från samma eller olika platser.|
+|NFR-07| Tillförlitlighet: Spelet ska kunna hantera tillfälligt internetavbrott utan att matchen förloras |
+|NFR-08| Säkerhet och integritet: Personlig information ska inte krävas för att spela och ska inte finnas i inbjudningslänken. |
+|NFR-09| Visuell stabilitet: Spelplanens storlek, position och även rutornas dimensioner ska fortsätta vara oförändrade när en sten placeras. Placera flera stenar och kontrollera att brädet inte krymper, flyttar sig eller ändrar storlek. |
+|NFR-10| Säkerhet och integritet: En spelare ska kunna delta i en match utan att behöva lämna sina personuppgifter för att spela. |
+|NRF-11|Brädans tillstånd ska vara konsekvent för båda spelarna i en match som sker på distans.|
 
-# NFR-02 Responsiv design
-## Koppling till intervjun med AI-kunden:
-Kunden använder både Samsung-telefon och Windows laptop och vill kunna spela Gomoku på båda enheterna.
-## Krav: 
-Spelet ska innehålla en spelplan och ska anpassas efter den enheten som används. Knappar, spelplan och annan viktig information ska vara användbara/fungera både på mobiltelefon och dator.
-### Hur kan kravet testas?
-Testa Gomoku på en Samsung-telefon och på en laptop. Kontrollera att spelplanen och knapparna är synliga och går att använda på båda enheterna.
+## Internetavbrott 
+| ID | KRAV |
+|-------|-------|
+|NRF-12| Ett tillfälligt internetavbrott ska inte automatiskt avsluta en pågående match som sker på distans mellan två spelare|
+|NRF-13|När spelaren återansluter ska systemet alltid återställa den senaste giltiga spelstatus, tillstånd och turordning. (Om motståndaren inte har valt att avsluta matchen) |
 
-# NFR-03  Prestanda
-## Frågan från intervjun: 
-## vad hade fått dig att sluta spela spelet eller stör dig när du spelar vanligtvis?
-## Kundens svar: 
-Om det blev segt skulle jag nog bara stänga ner det, ärligt talat. Jag vill det ska kännas smidigt när jag spelar.
-## Krav:
-Spelet ska reagera snabbt när användaren gör ett drag i Gomoku. Distansspel är extra viktigt eftersom motspelarens drag ska visas utan fördröjning.
-### Hur kravet kan testas?
-För att testa kravet, gör ett drag på spelplanen sedan kontrollera att draget visas direkt. Vid distansspel kan två enheter användas samtidigt för att kontrollera att det inte finns fördröjning mellan varje drag. 
-
-
-# NFR-04 Anonym användning
-## Frågan från intervjun med Ai kunden:
-## Vill du behöva logga in på eget konto innan du börjar spela eller vad föredrar du?
-## Kundens svar till frågan: 
-Nej, Helst inte. Jag glömmer lösenord hela tiden, så om jag måste skapa ett konto kanske jag bara struntar i det.
-## Krav: 
-Användaren vill kunna starta och spela en match utan att behöva skapa konto eller logga in.
-### Hur kan man testa denna krav?
-Öppna spelet som en ny användare och kontrollera att det går att starta en match utan att du behöver registrering eller inloggning. 
-
-
-# NFR-05 Kompatibilitet
-## Frågan från intervjun med kunden:
-## Vad brukar du vanligtvis spela Gomoku på? Har du olika enheter? 
-## Kundens svar:
-Jag brukar spela på en samsung-telefon och en vanlig Windows laptop. Chrome, tror jag-den med den frågade cirkeln
-## Krav: Systemet ska fungera på både mobiltelefon men även datorer och ska kunna spelas direkt i en webbläsare utan installation. 
-## Hur kan vi testa kravet?
-Testa först att spela Gomoku på en samsung telefon, sedan testa windows dator. Kontrollera även att spelet fungerar i en modern webbläsare som Chrome, och att spelplanen är användbar på båda enheterna.
-
-
-# Kompatibilitet mellan olika enheter; 
-## frågan från intervjun: Spelar det roll för dig om din vän spelar från en annan enhet eller funkar vad som helst?
-## Svaret från kunden:
-En kompis har en Iphone, men jag vet inte om det spelar någon roll. Jag skulle bara vilja att vi kan spela mot varandra utan att behöva krångla med en massa inställningar.
-## Krav:
-En annan spelare ska kunna ansluta till spelet utan problem även om personen använder en annan typ av enhet än samsung. 
-### Hur kan kravet testas?
-Starta en match på en Android telefon sedan kontrollera att en annan spelare med till exempel iPhone kan spela samma match. 
-
-
-# NFR-06 Anslutning via länk
-## frågan från intervjun: Om du spelar med dina vänner, hur brukar ni köra med varandra?
-## Svaret:
-Oftast är det en kompis som spelar med mig. Ibland sitter vi bredvid varandra i soffan, och ibland är kompisen hemma hos sig.
-## Krav: 
-Systemet ska fungera när två personer kör från samma ställe eller om det spelar från olika platser
-## Hur det testas?
-Testa att två personer kan spela samma match från varsin enhet genom att den ena spelaren skapar en match och den andra ansluter via länken.
-
-
-# NFR-07 Tillförlitlighet
-## Frågan från intervjun: Vad har du känt ifall internetanslutningen plöstligt försvann?
-## Svaret från kunden:
-Det händer ibland att internet försvinner en stund, typ när mikron är igång då skulle jag helst slippa börja om hela spelet från början. 
-## Krav:
-Systemet ska kunna hantera tillfälliga problem som till exempel internetanslutning. Om anslutningen bryts ska användaren informeras och kunna fortsätta spela när anslutningen återställs, om det är möjligt.
-### Hur kan kravet testas?
-Stäng av internetanslutningen under en match sedan kontrollera hur systemet reagerar. Återanslut och kontrollera om matchen kan fortsättas utan att spelets tillstånd förloras helt. 
-
-
-# NFR-08 Säkerhet och integritet
-## Frågan från intervjun med kunden:
-## Är det viktigt för dig att kunna spela utan att behöva lämna personlig information? eller spelar det ingen roll
-## Kundens svar:
-Ja, det är viktigt för mig. Jag vill helst inte behöva lämna ut personlig information bara för att spela.
-## Krav:
-Systemet ska inte kräva personlig information för att användaren ska kunna spela Gomoku. Invite länkar ska även inte innehålla personlig information om spelarna.
-### Hur kan kravet testas? 
-Starta ett spel utan att skapa ett konto eller logga in. Kontrollera att information som visas i en invite länk för en vän inte innehåller spelarens personliga information.
-
-
-
-# Sammanfattning:
-Intervjun med kunden användes för att identifiera många icke-funktionella krav som är viktiga för kunden utan att kunden är medveten om det. Genom att exempelvis utgå från prestanda, enheter, internetanslutning och användarens behov kunde de icke-funktionella kraven tas fram utan onödiga frågor. 
-Ett krav är en förväntning på systemet som går att testa, och kraven kan testas genom olika praktiska tester, till exempel genom att använda olika enheter, stänga av internet under en pågående match eller kontrollera hur snabbt spelet reagerar efter ett drag. 
+## Anonymt spelande 
+| ID | KRAV |
+|-------|-------|
+|NRF-14|Spelet ska alltid kunna användas direkt i en webbläsare utan att spelaren behöver installera något program|
+|NRF-15|Spelet ska kunna användas på både datorer och mobiltelefoner|
 
 ```mermaid
 flowchart TD
-    A["Icke-funktionella krav"] --> B["Användarvänlighet"]
-    A --> C["Responsiv design"]
-    A --> D["Prestanda"]
-    A --> E["Anonym användning"]
-    A --> F["Kompatibilitet"]
-    A --> G["Anslutning via länk"]
-    A --> H["Tillförlitlighet"]
-    A --> I["Säkerhet och integritet"]
 
-    B --> B1["Testa att en ny användare kan starta och spela"]
-    C --> C1["Testa spelplan och knappar på mobil och dator"]
-    D --> D1["Testa hur snabbt ett drag visas"]
-    E --> E1["Testa spel utan konto eller inloggning"]
-    F --> F1["Testa på mobil, dator och olika webbläsare"]
-    F --> F2["Testa spel mellan olika typer av enheter"]
-    G --> G1["Testa att ansluta till en match via länk"]
-    H --> H1["Bryt internet och kontrollera återanslutning"]
-    I --> I1["Testa att ingen personlig information krävs eller visas"]
+    A["Icke-funktionella krav för Gomoku"]
+
+    A --> B["Systemets icke-funktionella krav"]
+
+    B --> NFR01["NFR-01<br/>Användarvänlighet"]
+    B --> NFR02["NFR-02<br/>Responsiv design"]
+    B --> NFR03["NFR-03<br/>Prestanda"]
+    B --> NFR04["NFR-04<br/>Anonym användning"]
+    B --> NFR05["NFR-05<br/>Kompatibilitet"]
+    B --> NFR06["NFR-06<br/>Anslutning via länk"]
+    B --> NFR07["NFR-07<br/>Tillförlitlighet"]
+    B --> NFR08["NFR-08<br/>Säkerhet och integritet"]
+    B --> NFR09["NFR-09<br/>Visuell stabilitet"]
+    B --> NFR10["NFR-10<br/>Säkerhet och integritet"]
+    B --> NFR11["NFR-11<br/>Konsekvent brädstatus"]
+
+    A --> C["Internetavbrott"]
+
+    C --> NFR12["NFR-12<br/>Tillfälligt internetavbrott ska inte automatiskt avsluta matchen"]
+    C --> NFR13["NFR-13<br/>Senaste giltiga spelstatus, tillstånd och turordning återställs vid återanslutning"]
+
+    A --> D["Anonymt spelande"]
+
+    D --> NFR14["NFR-14<br/>Spelet fungerar direkt i webbläsaren utan installation"]
+    D --> NFR15["NFR-15<br/>Spelet fungerar på datorer och mobiltelefoner"]
+
+    NFR01 --> T01["Enkel att förstå och använda"]
+    NFR02 --> T02["Anpassas till mobil och dator"]
+    NFR03 --> T03["Snabb respons på spelarens drag"]
+    NFR04 --> T04["Ingen registrering eller inloggning"]
+    NFR05 --> T05["Fungerar direkt i webbläsaren"]
+    NFR06 --> T06["Två spelare kan spela via länk"]
+    NFR07 --> T07["Matchen förloras inte vid tillfälligt internetavbrott"]
+    NFR08 --> T08["Ingen personlig information krävs"]
+    NFR09 --> T09["Spelplanens storlek och position är oförändrad"]
+    NFR10 --> T10["Spelaren kan delta utan personuppgifter"]
+    NFR11 --> T11["Samma brädstatus för båda spelarna"]
+
+    NFR12 --> T12["Matchen fortsätter efter tillfälligt avbrott"]
+    NFR13 --> T13["Matchens senaste giltiga tillstånd återställs"]
+
+    NFR14 --> T14["Ingen programinstallation krävs"]
+    NFR15 --> T15["Fungerar på både dator och mobil"]
+
+    style A font-weight:bold
+    style B font-weight:bold
+    style C font-weight:bold
+    style D font-weight:bold
+```
