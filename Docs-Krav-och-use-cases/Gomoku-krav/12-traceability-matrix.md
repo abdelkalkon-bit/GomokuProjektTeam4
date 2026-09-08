@@ -30,4 +30,11 @@
 | FR-07.2  | Spela online via länk | UC-06, UC-07 |
 | FR-07.3  | Skapa online match via länk | UC-06 |
 | FR-07.4  | Hantera turordningen (multiplayerspel) | Tydlig beskrivning gällande turordning saknas i UC-06 och UC-07 |
+| FR-10.1  | Identifiera fem i rad (vinst) | UC-10 |
+| FR-10.2  | Identifiera markeringar och spelare | UC-10 |
+| FR-10.3  | Identifiera vinnare utifrån markeringar | UC-10 |
+| FR-10.4  | Avslutning vid vinst | UC-08, UC-10 | 
+| FR-10.5  | Vinstsskärm dyker upp | UC-10 |
+| FR-10.6  | Återgå till huvudmeny (vinst/förlust) | UC-08, UC-10 |
+| FR-10.7  | Ny match efter avslutat spel (vinst/förlust)| UC-08, UC-10 |
 
