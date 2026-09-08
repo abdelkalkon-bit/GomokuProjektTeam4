@@ -46,7 +46,7 @@
 ## Användningsfall ---> Funktionella krav
 
 | UC ID | Användningsfall | Förverkligad av FR |
-|---|---|---|
+|-------|-----------------|--------------------|
 | UC-01 | Starta en match | FR-01.1, FR-01.2, FR-01.3, FR-01.4, FR-01.5 |
 | UC-02 | Spela mot en dator | FR-02.1, FR-02.4, FR-02.5, FR-02.6, FR-02.7, FR-02.8, FR-02.9, FR-02.10, FR-02.11, FR-02.12 |
 | UC-03 | Välja svårighetsgrad | |
