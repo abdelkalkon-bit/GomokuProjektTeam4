@@ -26,4 +26,8 @@
 | FR-06.5  | Omdirigera användaren | UC-07 |
 | FR-06.6  | Ladda spel via länk | UC-07 |
 | FR-06.9  | Spela utan befintligt konto eller inloggning | UC-07 | 
+| FR-07.1  | Hot-seat multiplayer | UC Saknas |
+| FR-07.2  | Spela online via länk | UC-06, UC-07 |
+| FR-07.3  | Skapa online match via länk | UC-06 |
+| FR-07.4  | Hantera turordningen (multiplayerspel) | Tydlig beskrivning gällande turordning saknas i UC-06 och UC-07 |
 
