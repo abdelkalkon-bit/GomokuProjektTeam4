@@ -37,4 +37,9 @@
 | FR-10.5  | Vinstsskärm dyker upp | UC-10 |
 | FR-10.6  | Återgå till huvudmeny (vinst/förlust) | UC-08, UC-10 |
 | FR-10.7  | Ny match efter avslutat spel (vinst/förlust)| UC-08, UC-10 |
+| FR-11.1  | Identifiera fullt bräde (oavgjort) | UC-10 |
+| FR-11.2  | Avsluta spel vid fullt bräde (oavgjort) | UC-08, UC-10 |
+| FR-11.3  | Oavgjort skärm dyker upp | UC-10 |
+| FR-11.4  | Återgå till startmeny (oavgjort) | UC-08, UC-10 |
+| FR-11.5  | Nytt parti efter avslutat spel (oavgjort) | UC-08, UC-10 |
 
