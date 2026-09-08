@@ -19,4 +19,11 @@
 | FR-02.10 | Avsluta spel vid vinst (spel mot datorn)| UC-02 |
 | FR-02.11 | Identifiera full spelplan | UC-02 |
 | FR-02.12 | Avsluta och deklarera oavgjort (spel mot datorn) | UC-02 |
+| FR-06.1  | Skapa unikt match-ID vid start av match | UC-06 |
+| FR-06.2  | Visa "kopiera länk" | UC-06 |
+| FR-06.3  | Kunna kopiera länken | UC-06 |
+| FR-06.4  | Skicka länken | UC-06 |
+| FR-06.5  | Omdirigera användaren | UC-07 |
+| FR-06.6  | Ladda spel via länk | UC-07 |
+| FR-06.9  | Spela utan befintligt konto eller inloggning | UC-07 | 
 
