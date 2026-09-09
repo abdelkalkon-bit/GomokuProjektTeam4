@@ -31,8 +31,8 @@ Systemet ska därför vara enkelt att använda när två personer spelar mot var
 | 05-begreppsmodell.md | Viktiga centrala begrepp i systemet och vad dom har för relation till systemts funktion |
 | 06-user-journey.md | Beskrivning på hur en användare upplever och interagerar med systemet från början till slut när användaren försöker att uppnå ett specifikt mål i systemet. |
 | 07-use-cases-overview.md | INGEN ÄN | 
-| 11-business rules| Villkor, formler och strategier som bestämmer hur en verksamhet fungerar och vad systemet måste följa |
-| 12-traceability-matrix.md | Koppla samman och spåra krav mot design, kod och testfall |
+| 08-business rules| Villkor, formler och strategier som bestämmer hur en verksamhet fungerar och vad systemet måste följa |
+| 09-traceability-matrix.md | Koppla samman och spåra krav mot design, kod och testfall |
 
 # Översikt över användningsfall för Gomoku 
 | Namn på fil | vad finns i den? |
