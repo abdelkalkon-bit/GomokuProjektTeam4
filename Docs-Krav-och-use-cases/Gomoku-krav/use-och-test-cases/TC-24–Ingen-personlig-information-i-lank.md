@@ -1,4 +1,3 @@
-
 # TC-24–Ingen personlig information i spellänk
 ## Relaterat NFR:
 NFR-08, NFR-10
