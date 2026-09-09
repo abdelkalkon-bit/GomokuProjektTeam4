@@ -1,4 +1,14 @@
-# UC-13 – Spela hot-seat
+# UC-13 – Spela på samma plat med en vän
+
+| Fält              | Värden                         |
+|-------------------|--------------------------------|
+| Use Case ID       | UC-13                         |
+| Namn              | Spela på samma plats. |
+| Version           | 1.0                            |
+| Preliminär Aktör  | en spelare |
+| Sekundär Aktör    | en annan spelare|
+| Relaterad FR      | -|
+| Relaterad NFR     | -|
 
 ## Syfte
 
