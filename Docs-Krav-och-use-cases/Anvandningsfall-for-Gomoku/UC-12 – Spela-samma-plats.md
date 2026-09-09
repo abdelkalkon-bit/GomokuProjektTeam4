@@ -7,8 +7,8 @@
 | Version           | 1.0                            |
 | Preliminär Aktör  | en spelare |
 | Sekundär Aktör    | en annan spelare|
-| Relaterad FR      | -|
-| Relaterad NFR     | -|
+| Relaterad FR      | FR-07.1|
+| Relaterad NFR     | NFR-01, NFR-02|
 
 ## Syfte
 

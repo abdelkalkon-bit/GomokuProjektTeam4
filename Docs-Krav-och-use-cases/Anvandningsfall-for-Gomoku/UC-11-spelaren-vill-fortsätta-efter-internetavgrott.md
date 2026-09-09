@@ -33,9 +33,7 @@ Spelaren vill återuppta en pågående match efter att ha förlorat internetuppk
 
 ## Alternativa flöden:
 * 3a. Timeout: Om spelaren inte återansluter inom en viss tidsgräns, avslutar systemet matchen och motståndaren tilldelas vinst genom walkover.
-* 5a. Misslyckad identitetsverifiering: Om systemet inte kan verifiera att det är rätt spelare som återansluter, nekas åtkomst till matchen och spelaren ombeds logga in på nytt.
-* 6a. Motståndaren har lämnat matchen: Om motståndaren avbröt matchen under tiden spelaren var frånkopplad, meddelar systemet spelaren att matchen redan är avslutad och visar resultatet.
-* 6b. Match mot dator: Om spelaren spelade mot datorn, återupptas matchen automatiskt utan väntetid eftersom motståndaren (datorn) inte påverkas av avbrottet.
+
 
 # Förväntat resultat:
 Spelaren återansluts säkert till sin pågående match och kan fortsätta spela från samma tillstånd som innan avbrottet. Om spelaren inte återansluter i tid, avslutas matchen och motståndaren vinner genom walkover.
