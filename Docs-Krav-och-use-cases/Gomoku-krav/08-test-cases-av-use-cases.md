@@ -204,3 +204,21 @@ Det finns en ogiltig spellänk eller en match där två spelare redan deltar.
 * Användaren kan inte ansluta till matchen.
 * Ett tydligt felmeddelande visas.
 
+# TC-17 – Hot-seat
+## Relaterat UC:
+UC-13
+## Förutsättningar:
+Användaren har valt hot-seat.
+# Steg:
+1. Välj hot-seat.
+2. Spelare 1 gör ett drag.
+3. Spelare 2 gör ett drag.
+4. Fortsätt tills matchen avslutas.
+# Förväntat resultat:
+* Två spelare kan spela på samma enhet.
+* Turordningen fungerar.
+* Rätt spelare kan göra sitt drag.
+
+
+
+
