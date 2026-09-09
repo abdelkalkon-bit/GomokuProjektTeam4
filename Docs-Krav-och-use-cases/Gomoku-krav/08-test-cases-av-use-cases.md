@@ -278,7 +278,7 @@ Spelet går att öppna på olika typer av enheter.
 * Spelplanen och knapparna fungerar på både mobil och dator.
 * Viktig information hamnar inte utanför skärmen.
 
-# TC-22 – Webbläsare utan installation
+# TC-22–Webbläsare utan installation
 ## Relaterat NFR:
 NFR-05, NFR-14
 ## Förutsättningar:
@@ -290,7 +290,8 @@ Användaren har tillgång till en webbläsare.
 * Spelet går att använda direkt i webbläsaren.
 * Ingen programinstallation behövs.
 
-# TC-23 – Visuell stabilitet
+
+# TC-23–Visuell stabilitet
 ## Relaterat NFR:
 NFR-09
 ## Förutsättningar:
@@ -304,7 +305,8 @@ En match är igång.
 * Spelplanen flyttar inte på sig.
 * Rutorna behåller samma storlek.
 
-# TC-24 – Ingen personlig information i spellänk
+
+# TC-24–Ingen personlig information i spellänk
 ## Relaterat NFR:
 NFR-08, NFR-10
 ## Förutsättningar:
