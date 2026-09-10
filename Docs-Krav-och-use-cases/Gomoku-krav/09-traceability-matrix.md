@@ -84,4 +84,21 @@
 | FR-09.1 | Spara pågående spel mot datorn | UC-09 |
 | FR-09.2 | Återuppta pausat spel mot datorn | UC-09 |
 
+## Användningsfall ---> Kompletterande krav
+
+| UC ID | Användningsfall | Förverkligad av CR |
+|---|---|---|
+| UC-01 | Starta en match | |
+| UC-02 | Spela mot en dator | |
+| UC-03 | Välja svårighetsgrad | CR-03.1, CR-03.2, CR-03.3 |
+| UC-04 | Användaren spelar anonymt utan konto | CR-04.1, CR-04.2, CR-04.3, CR-04.4, CR-04.5, CR-04.6 |
+| UC-05 | Användaren hanterar cookies | CR-05.1, CR-05.2, CR-05.3, CR-05.4, CR-05.5 |
+| UC-06 | Användaren bjuder in sin vän via länk | CR-04.2, CR-04.3, CR-04.5, CR-04.6 |
+| UC-07 | Ansluta till en match | CR-04.2, CR-04.3, CR-04.5, CR-04.6 |
+| UC-08 | Avsluta pågående match | |
+| UC-09 | Fortsätta pausad match | CR-09.1, CR-09.2 |
+| UC-10 | Se matchresultat | |
+| UC-11 | Fortsätta efter internetavbrott | CR-08.1, CR-08.2 |
+| UC-12 | Bevara spelstatus | |
+
 
