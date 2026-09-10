@@ -6,8 +6,8 @@
 |Version | 1.0 | 
 |Aktör|Gäst spelare/Registrerad spelare|
 |Sekundär aktör | En-vän |
-|Relaterade FR | FR-04.2, FR-04.3, FR-04.5, FR-04.6, FR-06.5, FR-06.6, FR-06.9, FR-07.2, FR-07.3, FR-07.4|
-|Relaterade NFR | NFR-01 Användarvänlighet, NFR-05 Kompatibilitet, NFR-06 Anslutning via länk, NFR-08 Säkerhet och integritet |
+|Relaterade FR | FR-04.2, FR-04.3, FR-04.5, FR-04.6, FR-06.5, FR-06.6, FR-06.9, FR-07.2, FR-07.4|
+|Relaterade NFR | NFR-01, NFR-05, NFR-06, NFR-08|
 
 ## Aktör: 
 En spelare 

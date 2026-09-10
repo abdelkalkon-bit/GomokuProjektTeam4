@@ -33,7 +33,7 @@ Spelaren vill se om han/hon vann, förlorade eller om matchen slutade oavgjort
 
 # Alternativa flöden:
 * 3a. Oavgjort: Om spelplanen blir full utan att någon spelare uppnått fem i rad, avslutar systemet matchen och meddelar att resultatet blev oavgjort.
-* 3b. Motståndaren lämnar matchen:** Om motståndaren avbryter eller lämnar matchen innan den är avslutad, meddelar systemet att spelaren vinner matchen genom walkover.
+
 
 # Förväntat resultat:
 Matchen avslutas och resultatet (vinst, förlust eller oavgjort) visas tydligt för spelaren. Spelplanen låses för vidare drag och spelaren får möjlighet att starta en ny match.
