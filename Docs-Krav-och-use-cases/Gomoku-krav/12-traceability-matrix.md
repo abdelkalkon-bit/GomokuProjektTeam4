@@ -60,3 +60,28 @@
 | UC-11 | Fortsätta efter internetavbrott | |
 | UC-12 | Bevara spelstatus | |
 
+## Kompletterande krav ---> Användningsfall
+
+| CR ID                       |
+|(står som FR för tillfället) | Kompletterande krav (kort) | Förverkligad av UC |
+|-----------------------------|----------------------------|--------------------|
+| FR-03.1 | Visa meny med svårighetsgrader | UC-03 |
+| FR-03.2 | Välj svårighetsgrad            | UC-03 |
+| FR-03.3   | Ladda spel mot datorn med vald svårighetsgrad | UC-03 |
+| FR-04.1 | Öppna Gomoku i en webbläsare | UC-04 |
+| FR-04.2 | Starta spel utan registrerat konto   | UC-04, UC-06, UC-07 |
+| FR-04.3 | Starta spel utan att vara inloggad   | UC-04, UC-06, UC-07 |
+| FR-04.4 | Välja spelläge utan att ange personlig information | UC-04 |
+| FR-04.5 | Starta spel utan att ange personlig information    | UC-04, UC-06, UC-07 |
+| FR-04.6 | Spela helt parti utan att ange personlig information | UC-04, UC-06, UC-07 |
+| FR-05.1 | Öppna Gomoku i en webbläsare | UC-05 |
+| FR-05.2 | Hemsidan informerar om cookies | UC-05 |
+| FR-05.3 | Samla inte in information automatiskt | UC-05 |
+| FR-05.4 | Godkänn/neka cookies | UC-05 |
+| FR-05.5 | Tillåta spel vid nekande av cookies | UC-05 |
+| FR-08.1 | Hantera tillfälligt internetavbrott | UC-11 |
+| FR-08.2 | Återuppta pågående spel | UC-11 |
+| FR-09.1 | Spara pågående spel mot datorn | UC-09 |
+| FR-09.2 | Återuppta pausat spel mot datorn | UC-09 |
+
+
