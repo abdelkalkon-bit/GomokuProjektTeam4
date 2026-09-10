@@ -62,8 +62,8 @@
 
 ## Kompletterande krav ---> Användningsfall
 
-| CR ID                       |
-|(står som FR för tillfället) | Kompletterande krav (kort) | Förverkligad av UC |
+                       
+|CR ID (står som FR) | Kompletterande krav (kort) | Förverkligad av UC          |
 |-----------------------------|----------------------------|--------------------|
 | FR-03.1 | Visa meny med svårighetsgrader | UC-03 |
 | FR-03.2 | Välj svårighetsgrad            | UC-03 |
