@@ -216,11 +216,17 @@ Use Cases
 ```
 
 På så sätt används olika dokumentationsformer för att beskriva samma system ur olika perspektiv:
+
 **Krav** = vad systemet behöver uppfylla (Fr och NFR)
+
 **Use Cases** = hur en användaren interagerar med systemet (Gomoku)
+
 **Business Rules** = vilka regler som systemet måste följa
+
 **User Journey** = hur användaren upplever processen
+
 **UML** = hur olika beteende och flöden kan modelleras
+
 **Test Cases** = hur scenarier kan verifieras
 
 ---
