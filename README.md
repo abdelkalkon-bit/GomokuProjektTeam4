@@ -1,60 +1,55 @@
-# GiomokuProjektTeam4 
+# GiomokuProjektTeam4
+
 Detta är en gomoku-spel(fem i rad) utvecklad som en del av ett skolprojekt med stark fokus på kravfångst, systemanalys, usecases, modellering och testning.
+Repositoryt innehåller projekets dokumentation men även övriga filer som användes under hela utvecklingsprocessen.
+## Innehåll som finns:
 
-Repositoryt innehåller projekets dokumentation men även övriga filer som användes under hela utvecklingsprocessen. 
-
-##  Innehåll som finns: 
-
-* [ Om projektet](#-om-projektet)
-* [ Dokumentation](#-dokumentation)
-* [ Use Cases](#-use-cases)
-* [ Test Cases](#-test-cases)
-* [ UML och modeller](#-uml-och-modeller)
-* [ User Journey](#-user-journey)
-* [ Begreppslista](#-begreppslista)
-* [ Business Rules](#-business-rules)
-* [ Kundintervju och icke-funktionella krav](#-kundintervju-och-icke-funktionella-krav)
-* [ Utvecklingsprocess](#-utvecklingsprocess)
-* [ Projektstruktur](-projektstruktur)
-* [ CI/CD](#-cicd)
-* [ Licens](#-licens)
+* [Om hela projektet](#om-hela-projektet)
+* [Dokumentation](#dokumentation)
+* [Användningsfall](#användningsfall)
+* [Test Cases](#test-cases)
+* [UML och modeller](#uml-och-modeller)
+* [User Journey](#user-journey)
+* [Begreppslista för hela projektet](#begreppslista-för-hela-projektet)
+* [Business Rules](#business-rules)
+* [Kundintervju och icke-funktionella krav](#kundintervju-och-icke-funktionella-krav)
+* [Utvecklingsprocess](#utvecklingsprocess)
+* [Projektstruktur](#projektstruktur)
+* [Licens](#licens)
 
 ---
-##  Om hela projektet
 
+## Om hela projektet
 Gomoku är ett brädspel för två spelare kör mot varandra och målet är att få fem egna stenar i rad – horisontellt, vertikalt eller diagonalt.
-
 I projektet har vi arbetat med hur ett system kan analyseras och dokumenteras innan och under utveckling. Fokus ligger därför inte bara på själva spelet, utan även på att beskriva:
-- vad användaren behöver kunna göra(FR),
-- hur användaren interagerar med systemet,
-- vilka regler som systemet måste följa (BR),
-- vilka alternativa scenarier som kan uppstå (UC),
-- vilka egenskaper systemet behöver ha(FR,NFR),
-- och hur dessa scenarier kan testas(TC).
-
-Projektet har även delar om att spel mot dator, spel med en annan person, spel via länk, anonymt spelande, hantering av internetavbrott och stöd för olika enheter. Ingen kod har skrivits utan fokuset var främst att lära sig om hur krav dokumenteras/testas. 
+* vad användaren behöver kunna göra(FR),
+* hur användaren interagerar med systemet,
+* vilka regler som systemet måste följa (BR),
+* vilka alternativa scenarier som kan uppstå (UC),
+* vilka egenskaper systemet behöver ha(FR,NFR),
+* och hur dessa scenarier kan testas(TC).
+Projektet har även delar om att spel mot dator, spel med en annan person, spel via länk, anonymt spelande, hantering av internetavbrott och stöd för olika enheter. Ingen kod har skrivits utan fokuset var främst att lära sig om hur krav dokumenteras/testas.
 
 ---
 
 ## Dokumentation
-
-All dokumentation som har skapats under arbetet finns nedan: 
-**[ Docs-Krav-och-use-cases](Docs-Krav-och-use-cases/)**
-### 📋 Krav och systemanalys
+All dokumentation som har skapats under arbetet finns nedan:
+**[Docs-Krav-och-use-cases](Docs-Krav-och-use-cases/)**
+### Krav och systemanalys
 | Dokument                                                                                        | Beskrivning                                                                                      |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | [01 – Inledning](Docs-Krav-och-use-cases/Gomoku-krav/01-inledning.md)                           | Systemets syfte, användare, problemområde och dokumentstruktur                                   |
-| [03 – Kompletterande krav](Docs-Krav-och-use-cases/Gomoku-krav/03-kompletterande-krav.md)       | Kompletterande krav för till exempel anonymt spelande, cookies, återanslutning och pausning       |
+| [03 – Kompletterande krav](Docs-Krav-och-use-cases/Gomoku-krav/03-kompletterande-krav.md)       | Kompletterande krav för till exempel anonymt spelande, cookies, återanslutning och pausning      |
 | [04 – Icke-funktionella krav](Docs-Krav-och-use-cases/Gomoku-krav/04-icke-funktionella-krav.md) | Krav på bland annat användarvänlighet, responsivitet, prestanda, tillförlitlighet och integritet |
-| [05 – Begreppsmodell](Docs-Krav-och-use-cases/Gomoku-krav/05-begreppsmodell.md)                 | Flera viktiga begrepp och deras relation till systemet                                                |
-| [08 – Business Rules](Docs-Krav-och-use-cases/Gomoku-krav/08-business rules.md)                 | Regler som systemet ska följa under en Gomoku-match oavsett state                                           |
+| [05 – Begreppsmodell](Docs-Krav-och-use-cases/Gomoku-krav/05-begreppsmodell.md)                 | Flera viktiga begrepp och deras relation till systemet                                           |
+| [08 – Business Rules](Docs-Krav-och-use-cases/Gomoku-krav/08-business-rules.md)                 | Regler som systemet ska följa under en Gomoku-match oavsett state                                |
 
 ---
 
-#  Användningsfall
-Use cases beskriver olika mål för scenarier där aktör interagerar med gomoku. 
-**[ Öppna mappen för hitta alla Use Cases](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/)**
-### UC som har skapats under projektet. 
+# Användningsfall
+Use cases beskriver olika mål för scenarier där aktör interagerar med gomoku.
+**[Öppna mappen för hitta alla Use Cases](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/)**
+### UC som har skapats under projektet
 | ID                                                                                                                 | Use Case                        |
 | ------------------------------------------------------------------------------------------------------------------ | ------------------------------- |
 | [UC-01](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/UC-01-starta-en-match.md)                               | Starta en match                 |
@@ -64,18 +59,19 @@ Use cases beskriver olika mål för scenarier där aktör interagerar med gomoku
 | [UC-05](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/UC-05-anvandare-for-inget-cookies.md)                   | Hantera cookies                 |
 | [UC-06](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/UC-06-anvandaren-bjuder-in-med-lank.md)                 | Bjuda in en vän via länk        |
 | [UC-07](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/UC-07-spelaren-ansluta-till-en-match.md)                | Ansluta till en match           |
-| [UC-09](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/UC-09-spelaren-vill-fortsatta-pagaende-match.md)        | Fortsätta en pågående match     |
+| [UC-09](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/UC-09-spelaren-vill-fortsatta-pagaande-match.md)        | Fortsätta en pågående match     |
 | [UC-10](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/UC-10-spelaren-vill-se-match-resultat.md)               | Se matchresultat                |
 | [UC-11](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/UC-11-spelaren-vill-fortsätta-efter-internetavgrott.md) | Fortsätta efter internetavbrott |
-| [UC-12](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/UC-12 #U2013 Spela-samma-plats.md)                      | Spela på samma plats            |
+| [UC-12](Docs-Krav-och-use-cases/Anvandningsfall-for-Gomoku/UC-12%20%23U2013%20Spela-samma-plats.md)                | Spela på samma plats            |
 
 ---
 
 # Test Cases
-Projektet innehåller 24 testfall som täcker både funktionella och icke-funktionella scenarier, men inte allt i systemet. Med mer tid/resurser hade större täckning av systemet varit möjligt att uppfylla 
+Projektet innehåller 24 testfall som täcker både funktionella och icke-funktionella scenarier, men inte allt i systemet. Med mer tid/resurser hade större täckning av systemet varit möjligt att uppfylla
 **[Här hittar du alla testfall](Docs-Krav-och-use-cases/Gomoku-krav/use-och-test-cases/Information-for-alla-tc.md)**
 ### Funktionella testfall
 Testfallen **TC-01–TC-20** behandlar bland annat:
+
 * start av match,
 * spel mot dator,
 * ogiltiga drag,
@@ -91,6 +87,7 @@ Testfallen **TC-01–TC-20** behandlar bland annat:
 * lokalt spel,
 * matchens state,
 * och internetavbrott.
+
 ### Icke-funktionella testfall
 Testfallen **TC-21–TC-24** behandlar bland annat:
 * responsiv design,
@@ -101,14 +98,14 @@ Testfallen **TC-21–TC-24** behandlar bland annat:
 ---
 
 # UML och modeller
-Projektet innehåller flera diagram som används för att beskriva systemets beteende och olika delar av spelprocessen som går att verifiera. 
+Projektet innehåller flera diagram som används för att beskriva systemets beteende och olika delar av spelprocessen som går att verifiera.
 **[Här hittar du dom, läs översikt först!](Docs-Krav-och-use-cases/Gomoku-krav/UML/00-oversikt-Gomoku.md)**
-| Diagram                                                                                        | Syfte                                                       |
-| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| [ UML-översikt](Docs-Krav-och-use-cases/Gomoku-krav/UML/00-oversikt-Gomoku.md)               | Översikt över projektets modeller                           |
-| [ Sekvensdiagram](Docs-Krav-och-use-cases/Gomoku-krav/UML/01-sekvensdiagram-Gomoku.md)       | Visar kommunikationen mellan systemets delar under ett drag |
-| [ Aktivitetsdiagram](Docs-Krav-och-use-cases/Gomoku-krav/UML/02-aktivitetsdiagram-Gomoku.md) | Visar spelomgångens arbetsflöde och alternativa vägar       |
-| [ Tillståndsdiagram](Docs-Krav-och-use-cases/Gomoku-krav/UML/03-tillstandsdiagram-Gomoku.md) | Visar hur spelets olika tillstånd förändras under en match  |
+| Diagram                                                                                     | Syfte                                                       |
+| ------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| [UML-översikt](Docs-Krav-och-use-cases/Gomoku-krav/UML/00-oversikt-Gomoku.md)               | Översikt över projektets modeller                           |
+| [Sekvensdiagram](Docs-Krav-och-use-cases/Gomoku-krav/UML/01-sekvensdiagram-Gomoku.md)       | Visar kommunikationen mellan systemets delar under ett drag |
+| [Aktivitetsdiagram](Docs-Krav-och-use-cases/Gomoku-krav/UML/02-aktivitetsdiagram-Gomoku.md) | Visar spelomgångens arbetsflöde och alternativa vägar       |
+| [Tillståndsdiagram](Docs-Krav-och-use-cases/Gomoku-krav/UML/03-tillstandsdiagram-Gomoku.md) | Visar hur spelets olika tillstånd förändras under en match  |
 
 Diagrammen används som stöd för att förstå systemets beteende och för att identifiera olika scenarier som senare kan verifieras genom testfall.
 
@@ -128,10 +125,10 @@ Visar hur en spelare lämnar en pågående match och senare fortsätter från de
 ---
 
 # Begreppslista för hela projektet
-
 För att skapa en gemensam förståelse för projektets terminologi finns en separat begreppslista.
 **[Öppna begreppslistan](Docs-Krav-och-use-cases/Gomoku-krav/Begreppslista/begreppslista-for-gomoku.md)**
-Begreppslistan innehåller definitioner för till exempel: 
+Begreppslistan innehåller definitioner för till exempel:
+
 * Spelare
 * Drag
 * Spelbräde
@@ -153,29 +150,30 @@ Begreppslistan innehåller definitioner för till exempel:
 * Cookies
 * Samtycke
 * GDPR
+
 ---
 
 # Business Rules
-Projektet innehåller separata Business Rules som beskriver regler som alltid ska gälla under en Gomoku-match oavsett state. 
+Projektet innehåller separata Business Rules som beskriver regler som alltid ska gälla under en Gomoku-match oavsett state.
 **[Här hitta du alla BR](Docs-Krav-och-use-cases/Gomoku-krav/08-business rules.md)**
 Reglerna behandlar bland annat:
 * antal spelare,
 * giltiga och ogiltiga drag,
 * turordning,
-*  vinst,
-*  oavgjort,
-*  spel mot dator,
+* vinst,
+* oavgjort,
+* spel mot dator,
 * och återupptagande av matcher.
 
 Dessa regler kompletterar våra use cases genom att beskriva vilka regler systemet måste följa, oavsett vilket spelläge som används.
 
 ---
 
-# 💬 Kundintervju och icke-funktionella krav
+# Kundintervju och icke-funktionella krav
 De icke-funktionella kraven har tagits fram med hjälp av en kundintervju som var en AI, denna fil är ett exempel på hur vi arbetade under kravfångst.
 **[Öppna kundintervjun och kravunderlaget](Docs-Krav-och-use-cases/Gomoku-krav/intervju-krav-for-icke-funktionella/Intervju-med-kund-och-krav.md)**
-
 Intervjun fokuserar bland annat på:
+
 * användarvänlighet,
 * prestanda,
 * olika enheter,
@@ -185,12 +183,15 @@ Intervjun fokuserar bland annat på:
 * återanslutning,
 * integritet,
 * och visuell stabilitet.
+
 De resulterande kraven finns samlade i:
-**[ Icke-funktionella krav](Docs-Krav-och-use-cases/Gomoku-krav/04-icke-funktionella-krav.md)**
+**[Icke-funktionella krav](Docs-Krav-och-use-cases/Gomoku-krav/04-icke-funktionella-krav.md)**
+
 ---
 
 # Utvecklingsprocess
 Dokumentationen visar flera delar av den process som använts under projektet:
+
 ```text
  Kundintervju
        │
@@ -223,7 +224,7 @@ På så sätt används olika dokumentationsformer för att beskriva samma system
 
 ---
 
-#  Projektstruktur
+# Projektstruktur
 Repositoryts struktur ser ut så här:
 ```text
 GomokuProjektTeam4/
@@ -242,7 +243,7 @@ GomokuProjektTeam4/
 │   │   ├── UC-05-anvandare-for-inget-cookies.md
 │   │   ├── UC-06-anvandaren-bjuder-in-med-lank.md
 │   │   ├── UC-07-spelaren-ansluta-till-en-match.md
-│   │   ├── UC-09-spelaren-vill-fortsatta-pagaende-match.md
+│   │   ├── UC-09-spelaren-vill-fortsatta-pagaande-match.md
 │   │   ├── UC-10-spelaren-vill-se-match-resultat.md
 │   │   ├── UC-11-spelaren-vill-fortsätta-efter-internetavgrott.md
 │   │   └── UC-12 ... Spela-samma-plats.md
@@ -281,4 +282,5 @@ GomokuProjektTeam4/
 └── README.md
 ```
 
+---
 
