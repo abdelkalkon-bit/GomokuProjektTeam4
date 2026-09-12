@@ -31,4 +31,28 @@ Denna begreppslista visar alla domän och tekniska termer som används i kravspe
 | User story | En kort beskrivning på ett önskemål ur användarens perspektiv. Som användare, vill jag, för att. | 
 | Krav | Ett villkor som är dokumenterat, något systemet måste uppfylla | 
 | Spelinbjudan | Den information, vanligtvis en spellänk, som används för att låta en annan spelare ansluta till en match. |
-
+| Resultat | Det slutliga utfallet av en match: vinst, förlust eller oavgjort. |
+| Matchens tillstånd (state) | Det aktuella läget i en match, inklusive spelplan, placerade stenar och vilken spelares tur det är. |
+| Markör | Den symbol eller spelpjäs som representerar en viss spelare på spelplanen. |
+| Spelläget | Det sätt som Gomoku spelas på, exempelvis mot dator, lokalt på samma enhet eller online mot en annan spelare. |
+| Hot-seat | Ett lokalt spelläge där två spelare använder samma enhet och turas om att göra drag. |
+| Online multiplayer | Ett spelläge där två spelare spelar mot varandra från olika platser via internet. |
+| AI-motståndare | En programstyrd motståndare som fattar drag i stället för en mänsklig spelare. |
+| Internetanslutning | Den nätverksanslutning som krävs för att spela en match på distans. |
+| Internetavbrott | Ett tillfälligt bortfall av internetanslutningen under en pågående onlinematch. |
+| Återanslutning | När en spelare ansluter till en pågående onlinematch igen efter ett tillfälligt internetavbrott. |
+| Spelstatus | Den information som beskriver matchens aktuella läge och som används för att återställa spelet efter exempelvis en återanslutning. |
+| Spelläge mot dator | Ett spelläge där spelaren möter en AI-motståndare och kan välja svårighetsgrad. |
+| Match-ID | En unik identifierare som kopplas till en specifik match och används för att skapa en spellänk. |
+| Cookies | Små datafiler som en webbplats kan använda i webbläsaren och som användaren kan godkänna eller neka när samtycke krävs. |
+| Samtycke | Användarens godkännande till att cookies eller annan behandling som kräver godkännande får användas. |
+| Personlig information | Information som kan kopplas till en person. I Gomoku ska personlig information inte krävas för att spela. |
+| GDPR | dataskyddsförordning som reglerar behandling och skydd av personuppgifter. |
+| Webbläsare | Program som används för att öppna och köra Gomoku. |
+| Huvudmeny | Den del av spelet där spelaren kan välja exempelvis att starta en ny match eller välja spelläge. |
+| Pausad match | En påbörjad match som tillfälligt har stoppats men vars tillstånd har sparats så att den kan fortsätta senare. |
+| Återuppta match | Att fortsätta en tidigare pausad match från det senast sparade tillståndet. |
+| Giltigt drag | Ett drag som följer spelets regler, exempelvis att placera en sten på en ledig position under spelarens egen tur. |
+| Ogiltigt drag | Ett drag som bryter mot spelets regler, exempelvis att försöka placera en sten på en upptagen position eller när det inte är spelarens tur. |
+| Omgång | En spelomgång i Gomoku som pågår från start tills matchen avslutas. |
+| Autentisering | Kontroll av att rätt spelare får återansluta till en pågående match. |
