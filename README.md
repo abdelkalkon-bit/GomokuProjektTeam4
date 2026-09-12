@@ -21,60 +21,63 @@ Gomoku är ett strategispel för två spelare där målet är att få fem egna b
 
 Samtliga krav för systemet finns spårbara i detta Git-repo, som fungerar som gruppens gemensamma och versionshanterade kravdokumentation.
 
-## Projektstruktur
 
-```
+
+#  Projektstruktur
+
+```text
 gomoku/
-├── .gitignore                      # Filer och mappar som Git ska ignorera
-├── README.md                       # Projektöversikt
-├── LICENSE                         # Licens (om tillämpligt)
-├── docs/                           # All projektdokumentation
-│   ├── requirements/                # Kravfångst och kravdokumentation
-│   │   ├── 01-inledning.md
-│   │   ├── 02-funktionella-krav.md
-│   │   ├── 03-kompletterande-krav.md
-│   │   ├── 04-icke-funktionella-krav.md
-│   │   ├── 05-begreppsmodell.md
-│   │   ├── 06-user-journey.md
-│   │   ├── 07-use-cases-overview.md
-│   │   ├── use-cases/                # Enskilda Use Cases
-│   │   │   ├── UC-01-starta-nytt-parti.md
+├── .gitignore                         # Filer och mappar som Git ska ignorera
+├── README.md                          # Projektöversikt/Dokumentation
+├── LICENSE                            # Licens 
+│
+├── docs/                              # All projektdokumentation
+│   ├── requirements/                  # Kravfångst och kravdokumentation
+│   │   ├── 01-inledning.md            # Inledningen till hela projektet
+│   │   ├── 02-funktionella-krav.md    # Funktionella krav för gomoku
+│   │   ├── 03-kompletterande-krav.md  # Alla kompletterande krav finns här
+│   │   ├── 04-icke-funktionella-krav.md # Icke-funktionella krav för gomoku
+│   │   ├── 05-begreppsmodell.md       # Viktiga begrepp för gomoku och relationen mellan dom. 
+│   │   ├── 06-user-journey.md         # hur en användare upplever och interagerar med systemet från början till slut.
+│   │   ├── 07-use-cases-overview.md   //
+│   │   │
+│   │   ├── use-cases/                # Alla användningsfall 1-12
+│   │   │   ├── UC-01-starta-nytt-parti.md 
 │   │   │   ├── UC-02-gor-ett-drag.md
 │   │   │   ├── UC-03-bjuda-in-van.md
 │   │   │   └── ...
+│   │   │
 │   │   ├── 08-use-cases-och-test-cases.md
 │   │   ├── 09-journal.md             # Journal – dagliga anteckningar
-│   │   └── 10-reflektioner.md
-│   └── diagrams/                    # Diagram (bilder, exportfiler m.m.)
+│   │   └── 10-reflektioner.md        # Reflektioner
+│   │
+│   └── diagrams/                     # Diagram och modeller
 │       ├── uml/                      # UML-diagram
+│       │   ├── 00-oversikt-Gomoku.md
+│       │   ├── 01-sekvensdiagram-Gomoku.md
+│       │   ├── 02-aktivitetsdiagram-Gomoku.md
+│       │   └── 03-tillstandsdiagram-Gomoku.md
+│       │
 │       ├── journey/                  # User Journey-diagram
-│       └── readme.md                 # Information om dokumentationen
-├── src/                             # Källkod (tom i detta skede)
-├── tests/                           # Tester (tom i detta skede)
-├── .github/
-│   └── workflows/
-│       └── ci.yml                   # CI-pipeline (exempel)
-└── assets/                          # Resurser (bilder, ikoner, m.m.)
-```
+│       │   └── user-journey.md
+│       │
+│       └── readme.md                 # Inget här
+│
+├── src/                              //
+│   └── ...
+│
+├── tests/                            //
+│   └── ...
+│
+├── .github/                          //
+│   └── workflows/                    //
+│       └── ci.yml                    //
+│
+└── assets/                           //
+    ├── images/                       //
+    ├── icons/                        //
+    └── ... 
 
-## Dokumentation
 
-All kravdokumentation finns under [`docs/requirements/`](docs/requirements):
-
-| Dokument | Beskrivning |
-|---|---|
-| `01-inledning.md` | Inledning till projektet |
-| `02-funktionella-krav.md` | Funktionella krav |
-| `03-kompletterande-krav.md` | Kompletterande krav |
-| `04-icke-funktionella-krav.md` | Icke-funktionella krav |
-| `05-begreppsmodell.md` | Begreppsmodell |
-| `06-user-journey.md` | User Journey |
-| `07-use-cases-overview.md` | Use Cases – översikt |
-| `use-cases/UC-XX-*.md` | Enskilda Use Cases |
-| `08-use-cases-och-test-cases.md` | Use Cases och Test Cases |
-| `09-journal.md` | Journal – dagliga anteckningar |
-| `10-reflektioner.md` | Reflektioner |
-
-Diagram (UML, User Journey m.m.) finns under [`docs/diagrams/`](docs/diagrams).
 
 
