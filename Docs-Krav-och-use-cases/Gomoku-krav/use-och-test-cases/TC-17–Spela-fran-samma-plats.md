@@ -1,6 +1,6 @@
 # TC-17 – Spela från samma plats
 ## Relaterat UC:
-UC-13
+UC-12
 ## Förutsättningar:
 Användaren har valt spela från samma plats med en vän.
 # Steg:
