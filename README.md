@@ -16,7 +16,7 @@ Repositoryt innehåller projekets dokumentation men även övriga filer som anv�
 * [Kundintervju och icke-funktionella krav](#kundintervju-och-icke-funktionella-krav)
 * [Utvecklingsprocess](#utvecklingsprocess)
 * [Projektstruktur](#projektstruktur)
-* [Licens](#licens)
+
 
 ---
 
