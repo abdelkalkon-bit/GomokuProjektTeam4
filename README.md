@@ -29,6 +29,7 @@ I projektet har vi arbetat med hur ett system kan analyseras och dokumenteras in
 * vilka alternativa scenarier som kan uppstå (UC),
 * vilka egenskaper systemet behöver ha(FR,NFR),
 * och hur dessa scenarier kan testas(TC).
+  
 Projektet har även delar om att spel mot dator, spel med en annan person, spel via länk, anonymt spelande, hantering av internetavbrott och stöd för olika enheter. Ingen kod har skrivits utan fokuset var främst att lära sig om hur krav dokumenteras/testas.
 
 ---
