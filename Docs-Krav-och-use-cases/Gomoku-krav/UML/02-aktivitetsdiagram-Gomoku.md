@@ -6,26 +6,33 @@
 
 ```mermaid
 flowchart TD
-    A([Start]) --> B[Starta spel]
-    B --> C[Visa spelplan]
-    C --> D[Spelare väljer ruta]
+    A([Start]) --> B[Gomoku-spelet startas]
+    B --> C[Visa spelbrädet]
+    C --> D[Spelaren väljer en ruta]
 
-    D --> E{Är rutan ledig?}
+    D --> E[SPELETS logik kontrollerar rutan]
 
-    E -- Nej --> F[Visa felmeddelande]
-    F --> D
+    E --> F{Är rutan ledig?}
 
-    E -- Ja --> G[Placera spelpjäs]
-    G --> H{Finns fem i rad?}
+    F -- Nej --> G[Visa felmeddelande]
+    G --> D
 
-    H -- Ja --> I[Visa vinnare]
-    I --> J([Spelet avslutas])
+    F -- Ja --> H[Placera spelpjäs på Spelbrädet]
 
-    H -- Nej --> K{Är spelplanen full?}
+    H --> I[SPELETS logik kontrollerar fem i rad]
 
-    K -- Ja --> L[Visa oavgjort]
-    L --> J
+    I --> J{Finns fem i rad?}
 
-    K -- Nej --> M[Byt spelare]
-    M --> C
+    J -- Ja --> K[Visa vinnare]
+    K --> L([Spelet avslutas])
+
+    J -- Nej --> M[SPELETS logik kontrollerar om brädet är fullt]
+
+    M --> N{Är Spelbrädet fullt?}
+
+    N -- Ja --> O[Visa oavgjort]
+    O --> L
+
+    N -- Nej --> P[Byt spelare]
+    P --> C
 ```
