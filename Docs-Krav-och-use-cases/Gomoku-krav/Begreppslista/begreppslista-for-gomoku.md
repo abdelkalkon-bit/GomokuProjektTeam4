@@ -14,7 +14,6 @@ Denna begreppslista visar alla domän och tekniska termer som används i kravspe
 | Vinst | Ett resultat där en av spelarna har fått fem stenar i rad horisontellt, vertikalt eller diagonalt | 
 | Sten | Det är en spelpjäs som placeras på spelbrädet av en spelare under en match | 
 | Tur | Det är en period där en av spelarna får göra ett drag | 
-| Vinst | Ett resultat där en spelare har fått fem stenar i rad horisontellt, vertikalt eller diagonalt.|
 | Förlust | Ett resultat som visas när en motståndaren har vunnit matchen. |
 | Oavgjort | Ett resultat i en match där ingen av sspelarna lyckades vinna spelet. | 
 | Dator spelare | En programstyrd motståndare som spelar Gomoku mot en mänsklig spelare, lätt/medium eller svårt | 
