@@ -15,19 +15,19 @@ Vilka egenskaper ett system behöver ha är väldigt viktigt för användarupple
 |NFR-08| Säkerhet och integritet: Personlig information ska inte krävas för att spela och ska inte finnas i inbjudningslänken. |
 |NFR-09| Visuell stabilitet: Spelplanens storlek, position och även rutornas dimensioner ska fortsätta vara oförändrade när en sten placeras. Placera flera stenar och kontrollera att brädet inte krymper, flyttar sig eller ändrar storlek. |
 |NFR-10| Säkerhet och integritet: En spelare ska kunna delta i en match utan att behöva lämna sina personuppgifter för att spela. |
-|NRF-11|Brädans tillstånd ska vara konsekvent för båda spelarna i en match som sker på distans.|
+|NFR-11|Brädans tillstånd ska vara konsekvent för båda spelarna i en match som sker på distans.|
 
 ## Internetavbrott 
 | ID | KRAV |
 |-------|-------|
-|NRF-12| Ett tillfälligt internetavbrott ska inte automatiskt avsluta en pågående match som sker på distans mellan två spelare|
-|NRF-13|När spelaren återansluter ska systemet alltid återställa den senaste giltiga spelstatus, tillstånd och turordning. (Om motståndaren inte har valt att avsluta matchen) |
+|NFR-12| Ett tillfälligt internetavbrott ska inte automatiskt avsluta en pågående match som sker på distans mellan två spelare|
+|NFR-13|När spelaren återansluter ska systemet alltid återställa den senaste giltiga spelstatus, tillstånd och turordning. (Om motståndaren inte har valt att avsluta matchen) |
 
 ## Anonymt spelande 
 | ID | KRAV |
 |-------|-------|
-|NRF-14|Spelet ska alltid kunna användas direkt i en webbläsare utan att spelaren behöver installera något program|
-|NRF-15|Spelet ska kunna användas på både datorer och mobiltelefoner|
+|NFR-14|Spelet ska alltid kunna användas direkt i en webbläsare utan att spelaren behöver installera något program|
+|NFR-15|Spelet ska kunna användas på både datorer och mobiltelefoner|
 
 ```mermaid
 flowchart TD
