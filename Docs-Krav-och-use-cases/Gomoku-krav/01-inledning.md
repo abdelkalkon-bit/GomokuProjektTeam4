@@ -47,7 +47,7 @@ Systemet ska därför vara enkelt att använda när två personer spelar mot var
 | UC-09-spelaren-vill-forsatta-pagaende-match.md | UC för en spelare som fortsätta en pågående match |
 | UC-10-spelaren-vill-se-match-resultat.md | UC för en spelare som vill se resultatet av en match |
 | UC-11-spelaren-vill-fortsätta-efter-internetavbrott.md | UC för en spelare som vill fortsätta en match efter internetavbrott |
-| UC-12-Spela-på-samma-plat-med-en-vän-|Spela på samma plat med en vän |
+| UC-12-Spela-på-samma-plat-med-en-vän-|UC för Spela på samma plats med en vän |
 
 
 
